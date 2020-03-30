@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<modelscript>
+    <import file="acc_swat_1_suit_fem.obj" type="obj" create_objects="false"/>
+    <import file="acc_swat_1_suit_fem.fbx" type="fbx" create_objects="false"/>
+    <import file="co_culling.obj" type="obj" create_objects="true">
+        <rootpoint name="root_point">
+            <default/>
+        </rootpoint>
+    </import>
+</modelscript>

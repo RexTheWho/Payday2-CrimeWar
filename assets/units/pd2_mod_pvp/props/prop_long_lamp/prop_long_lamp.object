@@ -1,0 +1,16 @@
+<dynamic_object>
+    <diesel materials="units/pd2_mod_pvp/props/prop_long_lamp/prop_long_lamp" orientation_object="rp_gen_prop_long_lamp" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+      <object name="c_box_01" collision_type="box" padding="-2.5"/>
+        </body>
+    </bodies>
+	<effects>
+		<effect_spawner name="small_flare_blue_long" enabled="true" object="e_flare" effect="units/pd2_mod_pvp/props/prop_long_lamp/prop_long_lamp_blue_effect" />
+    </effects>
+	
+    <graphics>
+        <object enabled="true" name="g_g" />
+        <object enabled="true" name="g_g_glow" />
+    </graphics>
+</dynamic_object>

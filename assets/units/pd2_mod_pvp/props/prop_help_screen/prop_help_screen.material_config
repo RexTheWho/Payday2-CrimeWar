@@ -1,0 +1,30 @@
+<materials version="3">
+    <material name="mat_frame" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture			file="units/pd2_dlc_arena/architecture/are_lobby/are_lobby_trim_01_df"/>
+        <bump_normal_texture		file="units/pd2_dlc_arena/architecture/are_lobby/are_lobby_trim_01_nm"/>
+    </material>
+    <material name="mat_pdcw_info_01" unique="true" render_template="generic:DIFFUSE_TEXTURE:DIFFUSE_UVANIM:NORMALMAP:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM:SELF_ILLUMINATION_UVANIM" version="2" state="pause">
+        <diffuse_texture			file="units/pd2_mod_pvp/props/prop_help_screen/prop_help_screen_01_df"/>
+        <self_illumination_texture	file="units/pd2_mod_pvp/props/prop_help_screen/prop_help_screen_01_df"/>
+        <bump_normal_texture		file="core/textures/blank_texture_nm"/>
+        <variable					type="scalar" name="il_multiplier" value="spotlight"/>
+        <variable					type="scalar" name="il_bloom" value="3"/>
+        <variable					type="vector3" name="uv_speed" value="1 0 0"/>
+    </material>
+    <material name="mat_pdcw_info_02" unique="true" render_template="generic:DIFFUSE_TEXTURE:DIFFUSE_UVANIM:NORMALMAP:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM:SELF_ILLUMINATION_UVANIM" version="2" state="pause">
+        <diffuse_texture			file="units/pd2_mod_pvp/props/prop_help_screen/prop_help_screen_02_df"/>
+        <self_illumination_texture	file="units/pd2_mod_pvp/props/prop_help_screen/prop_help_screen_02_df"/>
+        <bump_normal_texture		file="core/textures/blank_texture_nm"/>
+        <variable					type="scalar" name="il_multiplier" value="spotlight"/>
+        <variable					type="scalar" name="il_bloom" value="3"/>
+        <variable					type="vector3" name="uv_speed" value="1 0 0"/>
+    </material>
+    <material name="mat_pdcw_info_03" unique="true" render_template="generic:DIFFUSE_TEXTURE:DIFFUSE_UVANIM:NORMALMAP:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM:SELF_ILLUMINATION_UVANIM" version="2" state="pause">
+        <diffuse_texture			file="units/pd2_mod_pvp/props/prop_help_screen/prop_help_screen_03_df"/>
+        <self_illumination_texture	file="units/pd2_mod_pvp/props/prop_help_screen/prop_help_screen_03_df"/>
+        <bump_normal_texture		file="core/textures/blank_texture_nm"/>
+        <variable					type="scalar" name="il_multiplier" value="spotlight"/>
+        <variable					type="scalar" name="il_bloom" value="3"/>
+        <variable					type="vector3" name="uv_speed" value="1 0 0"/>
+    </material>
+</materials>

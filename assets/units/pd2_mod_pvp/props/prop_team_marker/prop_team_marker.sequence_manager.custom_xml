@@ -1,0 +1,18 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'show_crim'" triggable="true">
+			<object enabled="true" name="'g_goal'"/>
+			<object enabled="true" name="'g_icon'"/>
+			<material_config name="'units/pd2_mod_pvp/props/prop_team_marker/prop_team_marker_crim'"/>
+		</sequence>
+		<sequence editable_state="true" name="'show_swat'" triggable="true">
+			<object enabled="true" name="'g_goal'"/>
+			<object enabled="true" name="'g_icon'"/>
+			<material_config name="'units/pd2_mod_pvp/props/prop_team_marker/prop_team_marker_swat'"/>
+		</sequence>
+		<sequence editable_state="true" name="'hide'" triggable="true">
+			<object enabled="false" name="'g_goal'"/>
+			<object enabled="false" name="'g_icon'"/>
+		</sequence>
+	</unit>
+</table>

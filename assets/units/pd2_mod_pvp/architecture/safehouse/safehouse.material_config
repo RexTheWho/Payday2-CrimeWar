@@ -1,0 +1,60 @@
+<materials version="3">
+	<material name="mat_chl_beams" version="2" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP">
+        <diffuse_texture		file="units/pd2_dlc_mad/architecture/mad_sawmill/mad_building_trims_01_df" mip="1"/>
+        <bump_normal_texture	file="units/pd2_dlc_mad/architecture/mad_sawmill/mad_building_trims_01_nm" mip="2"/>
+        <reflection_texture		file="environments/cubemaps/cubemap_hospital_01" type="cubemap"/>
+	</material>
+	<material name="mat_chl_ceiling" version="2" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR">
+        <diffuse_texture		file="units/pd2_dlc_chill/architecture/chl_whole_building/mad_int_concrete_ceiling_ind_df" />
+        <bump_normal_texture	file="units/pd2_dlc_chill/architecture/chl_whole_building/mad_int_concrete_ceiling_ind_nm" />
+        <material_texture		file="units/pd2_dlc_chill/architecture/chl_whole_building/mad_int_concrete_ceiling_gsma" />
+	</material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GLOSS_CONTROL_VALUE:NORMALMAP:VERTEX_COLOR" name="mat_raw_ceiling" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_building_concrete_floor_02_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_building_concrete_floor_02_nm" mip="2"/>
+        <reflection_texture file="environments/cubemaps/cubemap_hospital_01" type="cubemap"/>
+        <variable type="scalar" name="glossiness_control" value="0.5"/>
+    </material>
+	
+    <material name="mat_chl_floor02" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_SEPERATE:BLEND_SMOOTH:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" version="2" >
+        <diffuse_texture		file="units/payday2/architecture/safehouse/safehouse_int_floor_04b_df"/>
+        <diffuse_layer0_texture	file="units/payday2/architecture/safehouse/safehouse_int_floor_04a_df"/>
+        <bump_normal_texture	file="units/payday2/architecture/safehouse/safehouse_int_floor_04a_nm"/>
+        <diffuse_layer1_texture	file="units/payday2/architecture/safehouse/safehouse_int_floor_04mask_df"/>
+    </material>
+	
+    <material name="mat_chl_wallbrick" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_SEPERATE:BLEND_SMOOTH:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" version="2">
+        <diffuse_texture		file="units/payday2/architecture/safehouse/safehouse_brickwall_01b_df"/>
+        <diffuse_layer0_texture	file="units/payday2/architecture/safehouse/safehouse_brickwall_01a_df"/>
+        <diffuse_layer1_texture	file="units/payday2/architecture/safehouse/safehouse_brickwall_01mask_df"/>
+        <bump_normal_texture	file="units/payday2/architecture/safehouse/safehouse_brickwall_01a_nm"/>
+    </material>
+	
+	
+	<material name="mat_chl_wallgarage" version="2" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP">
+        <diffuse_texture		file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_int_garage_wall_df" />
+        <bump_normal_texture	file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_int_garage_wall_nm" />
+        <material_texture		file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_int_garage_wall_gsma" />
+	</material>
+	<material name="mat_govwall" version="2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP">
+        <diffuse_texture		file="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_wall_a_df"/>
+        <bump_normal_texture	file="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_wall_a_nm"/>
+	</material>
+	<material name="mat_lightceiling" version="2" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION">
+        <diffuse_texture			file="units/pd2_indiana/architecture/mus_int_skylight/mus_int_skylight_a_df"/>
+        <self_illumination_texture	file="units/pd2_indiana/architecture/mus_int_skylight/mus_int_skylight_a_df"/>
+        <variable					value="match" type="scalar" name="il_multiplier"/>
+	</material>
+	<material name="mat_vit_carpet" version="2" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP">
+        <diffuse_texture		file="units/pd2_dlc_vit/props/vit_prop_carpet_oval_office/vit_prop_carpet_oval_office_cirkel_df"/>
+        <bump_normal_texture	file="units/pd2_dlc_vit/props/vit_prop_carpet_oval_office/vit_prop_carpet_oval_office_cirkel_nm"/>
+        <material_texture		file="units/pd2_dlc_vit/props/vit_prop_carpet_oval_office/vit_prop_carpet_oval_office_gray_gsma"/>
+        <reflection_texture		file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+	</material>
+	
+    <material version="2" decal_material="concrete" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:NORMALMAP:RL_ENVIRONMENT" name="mat_stripes">
+        <diffuse_texture		file="units/payday2/architecture/ind/ind_ext_level/ind_ext_stripes_01_df"/>
+        <bump_normal_texture	file="units/payday2/architecture/ind/ind_ext_level/ind_ext_stripes_01_nm"/>
+        <variable				value="0.22" type="scalar" name="alpha_ref"/>
+    </material>
+</materials>

@@ -1,0 +1,9 @@
+<materials version="3" group="stealth_suit">
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" name="mat_player_tactical_outfit" version="2">
+		<bump_normal_texture 	file="units/pd2_dlc_vip/characters/shared_textures/vip_body_nm"/>
+		<diffuse_texture 		file="units/pd2_dlc_vip/characters/shared_textures/vip_body_df"/>
+        <variable				type="vector3" name="contour_color" value="1 1 1"/>
+        <variable				type="scalar" name="contour_opacity" value="0"/>
+    </material>
+    <material render_template="shadow_caster_only:SKINNED_1WEIGHT" version="2" name="shadow_caster"/>
+</materials>

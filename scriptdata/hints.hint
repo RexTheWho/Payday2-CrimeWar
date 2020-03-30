@@ -1,0 +1,5 @@
+<table>
+	<hint id="pvp_times_almost_up"	event="stinger_feedback_negative"	text_id="pvp_times_almost_up_text"/>
+	<hint id="pvp_crim_win"			event="stinger_feedback_positive"	text_id="pvp_crim_win_text"/>
+	<hint id="pvp_swat_win"			event="stinger_feedback_positive"	text_id="pvp_swat_win_text"/>
+</table>

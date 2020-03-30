@@ -1,0 +1,31 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'play_info_01'" triggable="true">
+			<object enabled="true"	name="'g_monitor_01'"/>
+			<object enabled="false"	name="'g_monitor_02'"/>
+			<object enabled="false"	name="'g_monitor_03'"/>
+			<material name="'mat_pdcw_info_01'" state="'pause'"/>
+			<run_sequence name="'info01_uv1'"/>
+		</sequence>
+		<sequence editable_state="true" name="'info01_uv1'" triggable="true">
+			<material name="'mat_pdcw_info_01'" time="0"/>
+			<run_sequence name="'info01_uv2'" start_time="7"/>
+		</sequence>
+		<sequence editable_state="true" name="'info01_uv2'" triggable="true">
+			<material name="'mat_pdcw_info_01'" time="0.1872"/>
+			<run_sequence name="'info01_uv3'" start_time="7"/>
+		</sequence>
+		<sequence editable_state="true" name="'info01_uv3'" triggable="true">
+			<material name="'mat_pdcw_info_01'" time="0.3744"/>
+			<run_sequence name="'info01_uv4'" start_time="7"/>
+		</sequence>
+		<sequence editable_state="true" name="'info01_uv4'" triggable="true">
+			<material name="'mat_pdcw_info_01'" time="0.5616"/>
+			<run_sequence name="'info01_uv5'" start_time="7"/>
+		</sequence>
+		<sequence editable_state="true" name="'info01_uv5'" triggable="true">
+			<material name="'mat_pdcw_info_01'" time="0.7488"/>
+			<run_sequence name="'info01_uv1'" start_time="7"/>
+		</sequence>
+	</unit>
+</table>

@@ -1,0 +1,13 @@
+<xml>
+
+<!-- STANDARD ----------------------------------------------------->
+
+	<state name="std" type="template_state" segment="base">
+	
+	</state>
+
+
+	<state name="std/empty" type="emptyloop" segment="base">		
+	</state>
+
+</xml>

@@ -1,0 +1,8 @@
+<dynamic_object>
+    <diesel orientation_object="rp_rootpoint" />	
+	<bodies>
+		<body name="static_body" enabled="true" template="static">
+			<object name="rp_rootpoint" />
+		</body>
+	</bodies>
+</dynamic_object>

@@ -1,0 +1,6 @@
+<unit type="pvp" slot="1">
+	<object file="units/pd2_mod_pvp/props/prop_weapon_rack/prop_weapon_rack" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+	</extensions>
+</unit>

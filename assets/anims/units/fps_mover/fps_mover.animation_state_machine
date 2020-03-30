@@ -1,0 +1,9 @@
+<state_machine name="fps_mover_machine" timebase="frames">
+
+	<segment name="base"/>
+	
+	<default state="std/empty"/>
+	
+	<states file="anims/units/fps_mover/fps_mover_std"/>
+	
+</state_machine>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<unit type="pvp" slot="1">
+  <network sync="spawn" />
+  <object file="units/pd2_mod_pvp/equipment/pvp_safe/pvp_safe" />
+  <extensions>
+    <extension name="unit_data" class="ScriptUnitData" />
+	<extension name="damage" class="UnitDamage" />
+  </extensions>
+</unit>

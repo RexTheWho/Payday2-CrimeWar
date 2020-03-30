@@ -1,0 +1,447 @@
+<table>
+	<editor_groups/>
+	<instances/>
+	<statics>
+		<table>
+			<unit_data _prev_pos="-400 1225 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="show_crim" name="units/pd2_mod_pvp/props/prop_team_marker/prop_team_marker" name_id="prop_team_marker_001" position="-400 1225 0" rotation="0 0 0 -1" unit_id="100016"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-400 -1225 0" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="show_swat" name="units/pd2_mod_pvp/props/prop_team_marker/prop_team_marker" name_id="prop_team_marker_002" position="-400 -1225 0" rotation="0 0 0 -1" unit_id="100017"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="100 -500 200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="light_orange_on_black" name="units/pd2_dlc_chill/props/chl_prop_timer_small/chl_prop_timer_small" name_id="timerPlayerCount" position="100 -500 -100" rotation="0 0 -0.707107 -0.707107" unit_id="100042"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="100 -500 215" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 15" local_rot="0 0 0 1" mesh_variation="light_red_on_black" name="units/pd2_dlc_chill/props/chl_prop_timer_small/chl_prop_timer_small" name_id="timerPlayerCountCrim" position="100 -500 -85" rotation="0 0 -0.707107 -0.707107" unit_id="100043"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="100 -500 230" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 30" local_rot="0 0 0 1" mesh_variation="light_blue_on_black" name="units/pd2_dlc_chill/props/chl_prop_timer_small/chl_prop_timer_small" name_id="timerPlayerCountSwat" position="100 -500 -70" rotation="0 0 -0.707107 -0.707107" unit_id="100044"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pvp/architecture/safehouse/safehouse" name_id="safehouse_001" position="0 0 0" rotation="0 0 -0.707107 -0.707107" unit_id="100047"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-420.492 1792.73 -100" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="anim_door_rear_both_open" name="units/pd2_dlc_chill/vehicles/str_vehicle_van/chl_vehicle_van_player" name_id="chl_vehicle_van_player_001" position="-420.492 1792.73 -100" rotation="0 0 0.997564 -0.0697564" unit_id="100000">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 0.858824 0.580392" enabled="true" falloff_exponent="4" far_range="150" multiplier="@IDbca13ba1d306f87b@" name="lo_omni_1" near_range="0" spot_angle_end="1" spot_angle_start="1"/>
+					<table clipping_values="10000 -10000 0" color="1 0.861 0.584" enabled="true" falloff_exponent="4" far_range="150" multiplier="@IDbca13ba1d306f87b@" name="lo_omni_2" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 2400 -100" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_rollupgaragedoor_clean_a" name_id="ind_ext_rollupgaragedoor_clean_a_001" position="-600 2400 -100" rotation="0 0 0.707107 -0.707107" unit_id="100001"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-200 -2400 -100" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_rollupgaragedoor_clean_a" name_id="ind_ext_rollupgaragedoor_clean_a_002" position="-200 -2400 -100" rotation="0 0 -0.707107 -0.707107" unit_id="100002"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-382.172 -1886.03 -100" _prev_rot="0 0 0.999657 -0.0261769" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="open" name="units/payday2/vehicles/str_vehicle_swat_van/str_vehicle_swat_van" name_id="str_vehicle_swat_van_001" position="-382.172 -1886.03 -100" rotation="0 0 0.999657 -0.0261769" unit_id="100003">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDbca13ba1d306f87b@" name="ls_left" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="1" far_range="2000" multiplier="@IDbca13ba1d306f87b@" name="ls_right" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="1" far_range="1000" multiplier="@IDbca13ba1d306f87b@" name="ls_t_left" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="1" far_range="1000" multiplier="@IDbca13ba1d306f87b@" name="ls_t_right" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
+				</lights>
+				<projection_textures ls_left="units/lights/spot_light_projection_textures/default_df"/>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-800 -1400 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 -400 -100" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x3m" name_id="dev_bag_collision_4x3m_001" only_visible_in_editor="true" position="-800 -1400 0" rotation="0 0 0.707107 -0.707107" unit_id="100004"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-400 -1400 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 -100" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x3m" name_id="dev_bag_collision_4x3m_002" only_visible_in_editor="true" position="-400 -1400 0" rotation="0 0 0.707107 -0.707107" unit_id="100005"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-400 -1400 100" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x3m" name_id="dev_bag_collision_4x3m_003" only_visible_in_editor="true" position="-400 -1400 100" rotation="0 0 0.707107 -0.707107" unit_id="100006"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-800 -1400 100" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 -400 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x3m" name_id="dev_bag_collision_4x3m_004" only_visible_in_editor="true" position="-800 -1400 100" rotation="0 0 0.707107 -0.707107" unit_id="100007"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-400 1400 100" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x3m" name_id="dev_bag_collision_4x3m_005" only_visible_in_editor="true" position="-400 1400 100" rotation="0 0 0.707107 0.707107" unit_id="100008"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-800 1400 100" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="2.09808e-005 -400 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x3m" name_id="dev_bag_collision_4x3m_006" only_visible_in_editor="true" position="-3.05176e-005 1400 100" rotation="0 0 0.707107 0.707107" unit_id="100009"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-800 1400 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="2.09808e-005 -400 -100" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x3m" name_id="dev_bag_collision_4x3m_007" only_visible_in_editor="true" position="-3.05176e-005 1400 0" rotation="0 0 0.707107 0.707107" unit_id="100010"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-400 1400 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 -100" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x3m" name_id="dev_bag_collision_4x3m_008" only_visible_in_editor="true" position="-400 1400 0" rotation="0 0 0.707107 0.707107" unit_id="100011"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-297 1016 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="open_door" name="units/payday2/props/are_int_double_door/are_int_double_door" name_id="matchDoorCrim" position="-297 1016 0" rotation="-0 0 -0 -1" unit_id="100012"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-503 -1016 0" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="open_door" name="units/payday2/props/are_int_double_door/are_int_double_door" name_id="matchDoorSwat" position="-503 -1016 0" rotation="0 0 1 4.37114e-008" unit_id="100013"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-800 0 200" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_001" only_visible_in_editor="true" position="-800 0 200" rotation="-0 0 -0 -1" unit_id="100014">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.792157 0.901961 1" enabled="true" falloff_exponent="1" far_range="650" multiplier="@IDc1749c1433ffb099@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-800 0 800" _prev_rot="1 0 0 -4.37114e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/lights/light_spot_shadow_projection_01/light_spot_shadow_projection_01" name_id="light_spot_shadow_projection_01_001" only_visible_in_editor="true" position="-800 0 800" projection_light="ls_spot" rotation="1 0 0 -4.37114e-008" unit_id="100015">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.737255 0.901961 1" enabled="true" falloff_exponent="1" far_range="1300" multiplier="@IDc1749c1433ffb099@" name="ls_spot" near_range="400" spot_angle_end="100" spot_angle_start="1"/>
+				</lights>
+				<projection_lights>
+					<ls_spot x="128" y="128"/>
+				</projection_lights>
+				<projection_textures ls_spot="units/lights/spot_light_projection_textures/spotprojection_16_flashlight_df"/>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1580 0 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_pvp/props/prop_help_screen/prop_help_screen" name_id="prop_help_screen_001" position="-1580 0 0" rotation="0 0 -0.707107 -0.707107" unit_id="100018"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1475.5 -390 0" _prev_rot="0 0 0.866025 0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_pvp/props/prop_help_screen/prop_help_screen" name_id="prop_help_screen_002" position="-1475.5 -390 0" rotation="0 -0 0.866025 0.5" unit_id="100021"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1190 -675.5 0" _prev_rot="0 0 0.965926 0.258819" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_pvp/props/prop_help_screen/prop_help_screen" name_id="prop_help_screen_003" position="-1190 -675.5 0" rotation="0 0 0.965926 0.258819" unit_id="100023"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1475.5 390 0" _prev_rot="0 0 -0.5 -0.866025" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_pvp/props/prop_help_screen/prop_help_screen" name_id="prop_help_screen_004" position="-1475.5 390 0" rotation="0 0 -0.5 -0.866025" unit_id="100025"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1190 675.5 0" _prev_rot="0 0 -0.258819 -0.965926" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_pvp/props/prop_help_screen/prop_help_screen" name_id="prop_help_screen_005" position="-1190 675.5 0" rotation="0 0 -0.258819 -0.965926" unit_id="100027"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-800 0 2" _prev_rot="0 -0.707107 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pvp/equipment/deploy_gensec_scanner/deploy_gensec_scanner" name_id="deploy_gensec_scanner" position="-800 0 2" rotation="0 0 0 -1" unit_id="100020"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-600 -1000 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x3m" name_id="doorwayblocker" only_visible_in_editor="true" position="-600 -1000 0" rotation="0 0 0.707107 -0.707107" unit_id="100026"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-200 -1000 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x3m" name_id="doorwayblocker" only_visible_in_editor="true" position="-200 1000 0" rotation="0 0 -0.707107 -0.707107" unit_id="100029"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="510 -399 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="open_door" name="units/payday2/props/are_int_double_door/are_int_double_door" name_id="mkp_int_floor_2x2m_a_001" position="502 -399 0" rotation="0 0 0 -1" unit_id="100022"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 -595 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="open_door" name="units/payday2/props/are_int_double_door/are_int_double_door" name_id="dev_collision_4x3m_001" position="-1 -595 0" rotation="0 0 -0.707107 -0.707107" unit_id="100030"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="395 -1075 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-325 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pvp/props/prop_weapon_rack/prop_weapon_rack" name_id="dev_collision_1x1m_001" position="395 -975 0" rotation="0 0 0.707107 -0.707107" unit_id="100024"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="405 -1075 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-325 10 0" local_rot="0 0 1 0" name="units/pd2_mod_pvp/props/prop_weapon_rack/prop_weapon_rack" name_id="prop_weapon_rack_001" position="405 -975 0" rotation="0 0 -0.707107 -0.707107" unit_id="100019"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="395 -1400 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pvp/props/prop_weapon_rack/prop_weapon_rack" name_id="dev_collision_1x1m_002" position="395 -1300 0" rotation="0 0 0.707107 -0.707107" unit_id="100028"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="405 -1300 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pvp/props/prop_weapon_rack/prop_weapon_rack" name_id="prop_weapon_rack_002" position="405 -1300 0" rotation="0 0 -0.707107 -0.707107" unit_id="100031"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="15 -975 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-325 -780 0" local_rot="0 0 1 0" name="units/pd2_mod_pvp/props/prop_weapon_rack/prop_weapon_rack" name_id="prop_weapon_rack_003" position="15 -975 0" rotation="0 0 -0.707107 -0.707107" unit_id="100032"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="15 -1300 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pvp/props/prop_weapon_rack/prop_weapon_rack" name_id="prop_weapon_rack_004" position="15 -1300 0" rotation="0 0 -0.707107 -0.707107" unit_id="100033"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="785 -975 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-640 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pvp/props/prop_weapon_rack/prop_weapon_rack" name_id="dev_collision_1x1m_003" position="785 -975 0" rotation="0 0 0.707107 -0.707107" unit_id="100034"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="785 -1300 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-315 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pvp/props/prop_weapon_rack/prop_weapon_rack" name_id="dev_collision_1x1m_004" position="785 -1300 0" rotation="0 0 0.707107 -0.707107" unit_id="100035"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="600 -1500 200" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_002" only_visible_in_editor="true" position="600 -1500 200" rotation="-0 0 -0 -1" unit_id="100036">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.780392 0.87451 1" enabled="true" falloff_exponent="1" far_range="350" multiplier="@ID748ce7d9371994d6@" name="lo_omni" near_range="0" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="600 -1100 200" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_003" only_visible_in_editor="true" position="600 -1100 200" rotation="-0 0 -0 -1" unit_id="100037">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.780392 0.87451 1" enabled="true" falloff_exponent="1" far_range="350" multiplier="@ID748ce7d9371994d6@" name="lo_omni" near_range="0" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="600 -700 200" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_004" only_visible_in_editor="true" position="600 -700 200" rotation="-0 0 -0 -1" unit_id="100038">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.780392 0.87451 1" enabled="true" falloff_exponent="1" far_range="350" multiplier="@ID748ce7d9371994d6@" name="lo_omni" near_range="0" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="200 -700 200" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_005" only_visible_in_editor="true" position="200 -700 200" rotation="-0 0 -0 -1" unit_id="100039">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.780392 0.87451 1" enabled="true" falloff_exponent="1" far_range="350" multiplier="@ID748ce7d9371994d6@" name="lo_omni" near_range="0" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="200 -1100 200" _prev_rot="-0 0 -0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_006" only_visible_in_editor="true" position="200 -1100 200" rotation="-0 0 -0 -1" unit_id="100040">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.780392 0.87451 1" enabled="true" falloff_exponent="1" far_range="350" multiplier="@ID748ce7d9371994d6@" name="lo_omni" near_range="0" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="200 -1500 200" _prev_rot="-0 0 -0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_007" only_visible_in_editor="true" position="200 -1500 200" rotation="-0 0 -0 -1" unit_id="100041">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.780392 0.87451 1" enabled="true" falloff_exponent="1" far_range="350" multiplier="@ID748ce7d9371994d6@" name="lo_omni" near_range="0" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="400 -700 200" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_008" only_visible_in_editor="true" position="400 -700 200" rotation="-0 0 -0 -1" unit_id="100045">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.780392 0.87451 1" enabled="true" falloff_exponent="1" far_range="350" multiplier="@ID748ce7d9371994d6@" name="lo_omni" near_range="0" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="400 -1500 200" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_009" only_visible_in_editor="true" position="400 -1500 200" rotation="-0 0 -0 -1" unit_id="100046">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.780392 0.87451 1" enabled="true" falloff_exponent="1" far_range="350" multiplier="@ID748ce7d9371994d6@" name="lo_omni" near_range="0" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="15 -1615 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pvp/props/prop_weapon_rack/prop_weapon_rack" name_id="prop_weapon_rack_005" position="15 -1615 0" rotation="0 0 -0.707107 -0.707107" unit_id="100048"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="785 -1615 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pvp/props/prop_weapon_rack/prop_weapon_rack" name_id="dev_collision_1x1m_005" position="785 -1615 0" rotation="0 0 0.707107 -0.707107" unit_id="100049"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="900 -1799 225" _prev_rot="-3.09086e-008 0.707107 0.707107 -3.09086e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_001" position="900 -1789 225" rotation="-3.09086e-008 0.707107 0.707107 -3.09086e-008" unit_id="100050">
+				<editable_gui align="center" alpha="0.80046" blend_mode="normal" font="fonts/font_eroded" font_color="0 0 0" font_size="5.74789" render_template="diffuse_vc_decal" text="ARMORY" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="200 -1100 200" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pvp/props/prop_long_lamp/prop_long_lamp" name_id="prop_long_lamp_001" position="200 -1100 300" rotation="0 0 0.707107 -0.707107" unit_id="100051"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="200 -1100 300" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pvp/props/prop_long_lamp/prop_long_lamp" name_id="prop_long_lamp_002" position="200 -1500 300" rotation="0 0 0.707107 -0.707107" unit_id="100052"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="200 -1500 300" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pvp/props/prop_long_lamp/prop_long_lamp" name_id="prop_long_lamp_003" position="200 -700 300" rotation="0 0 0.707107 -0.707107" unit_id="100053"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="400 -700 300" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pvp/props/prop_long_lamp/prop_long_lamp" name_id="prop_long_lamp_005" position="600 -700 300" rotation="0 0 0.707107 -0.707107" unit_id="100055"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="600 -700 300" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pvp/props/prop_long_lamp/prop_long_lamp" name_id="prop_long_lamp_006" position="600 -1100 300" rotation="0 0 0.707107 -0.707107" unit_id="100056"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="600 -1100 300" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pvp/props/prop_long_lamp/prop_long_lamp" name_id="prop_long_lamp_007" position="600 -1500 300" rotation="0 0 0.707107 -0.707107" unit_id="100057"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-940 -242.486 200" _prev_rot="-0.612372 -0.353553 0.612373 -0.353553" continent="world" local_pos="-140 -242.486 3.05176e-005" local_rot="0.612372 0.353553 -0.612373 0.353553" name="units/lights/light_spot_shadow_projection_01/light_spot_shadow_projection_01" name_id="light_spot_shadow_projection_01_002" only_visible_in_editor="true" position="-940 -242.486 200" projection_light="ls_spot" rotation="-0.612372 -0.353553 0.612373 -0.353553" unit_id="100054">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="1" far_range="800" multiplier="@ID5035addc43a80b74@" name="ls_spot" near_range="475" spot_angle_end="37.7094" spot_angle_start="43"/>
+				</lights>
+				<projection_lights>
+					<ls_spot x="128" y="128"/>
+				</projection_lights>
+				<projection_textures ls_spot="units/lights/spot_light_projection_textures/spotprojection_photo_light _df"/>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1042.49 -140 200" _prev_rot="0.683013 0.183013 -0.683013 0.183013" continent="world" local_pos="-242.487 -140 -1.52588e-005" local_rot="-0.683013 -0.183013 0.683013 -0.183013" name="units/lights/light_spot_shadow_projection_01/light_spot_shadow_projection_01" name_id="light_spot_shadow_projection_01_003" only_visible_in_editor="true" position="-1042.49 -140 200" projection_light="ls_spot" rotation="0.683013 0.183013 -0.683013 0.183013" unit_id="100058">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="1" far_range="800" multiplier="@ID5035addc43a80b74@" name="ls_spot" near_range="475" spot_angle_end="37.7094" spot_angle_start="43"/>
+				</lights>
+				<projection_lights>
+					<ls_spot x="128" y="128"/>
+				</projection_lights>
+				<projection_textures ls_spot="units/lights/spot_light_projection_textures/spotprojection_photo_light _df"/>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-980 0 200" _prev_rot="0.707107 0 -0.707107 0" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/lights/light_spot_shadow_projection_01/light_spot_shadow_projection_01" name_id="light_spot_shadow_projection_01_004" only_visible_in_editor="true" position="-1080 0 200" projection_light="ls_spot" rotation="0.707107 0 -0.707107 0" unit_id="100060">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="1" far_range="800" multiplier="@ID5035addc43a80b74@" name="ls_spot" near_range="475" spot_angle_end="37.7094" spot_angle_start="43"/>
+				</lights>
+				<projection_lights>
+					<ls_spot x="128" y="128"/>
+				</projection_lights>
+				<projection_textures ls_spot="units/lights/spot_light_projection_textures/spotprojection_photo_light _df"/>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1042.49 140 200" _prev_rot="-0.683013 0.183013 0.683013 0.183013" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/lights/light_spot_shadow_projection_01/light_spot_shadow_projection_01" name_id="light_spot_shadow_projection_01_005" only_visible_in_editor="true" position="-1042.49 140 200" projection_light="ls_spot" rotation="-0.683013 0.183013 0.683013 0.183013" unit_id="100061">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="1" far_range="800" multiplier="@ID5035addc43a80b74@" name="ls_spot" near_range="475" spot_angle_end="37.7094" spot_angle_start="43"/>
+				</lights>
+				<projection_lights>
+					<ls_spot x="128" y="128"/>
+				</projection_lights>
+				<projection_textures ls_spot="units/lights/spot_light_projection_textures/spotprojection_photo_light _df"/>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-940 242.487 200" _prev_rot="0.612373 -0.353553 -0.612372 -0.353553" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/lights/light_spot_shadow_projection_01/light_spot_shadow_projection_01" name_id="light_spot_shadow_projection_01_006" only_visible_in_editor="true" position="-940 242.487 200" projection_light="ls_spot" rotation="0.612373 -0.353553 -0.612372 -0.353553" unit_id="100062">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="1" far_range="800" multiplier="@ID5035addc43a80b74@" name="ls_spot" near_range="475" spot_angle_end="37.7094" spot_angle_start="43"/>
+				</lights>
+				<projection_lights>
+					<ls_spot x="128" y="128"/>
+				</projection_lights>
+				<projection_textures ls_spot="units/lights/spot_light_projection_textures/spotprojection_photo_light _df"/>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1140 -588.897 200" _prev_rot="0 0 0.965926 0.258819" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_010" only_visible_in_editor="true" position="-1140 -588.897 200" rotation="0 0 0.965926 0.258819" unit_id="100059">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.294118 0.294118 0.294118" enabled="true" falloff_exponent="1" far_range="400" multiplier="@ID748ce7d9371994d6@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1388.9 -340 200" _prev_rot="0 0 0.866025 0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_011" only_visible_in_editor="true" position="-1388.9 -340 200" rotation="0 0 0.866025 0.5" unit_id="100063">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.294118 0.294118 0.294118" enabled="true" falloff_exponent="1" far_range="400" multiplier="@ID748ce7d9371994d6@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1480 0 200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_012" only_visible_in_editor="true" position="-1480 0 200" rotation="0 0 -0.707107 -0.707107" unit_id="100064">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.294118 0.294118 0.294118" enabled="true" falloff_exponent="1" far_range="400" multiplier="@ID748ce7d9371994d6@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1388.9 340 200" _prev_rot="0 0 -0.5 -0.866025" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_013" only_visible_in_editor="true" position="-1388.9 340 200" rotation="0 0 -0.5 -0.866025" unit_id="100065">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.294118 0.294118 0.294118" enabled="true" falloff_exponent="1" far_range="400" multiplier="@ID748ce7d9371994d6@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1140 588.897 200" _prev_rot="0 0 -0.258819 -0.965926" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_014" only_visible_in_editor="true" position="-1140 588.897 200" rotation="0 0 -0.258819 -0.965926" unit_id="100066">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.294118 0.294118 0.294118" enabled="true" falloff_exponent="1" far_range="400" multiplier="@ID748ce7d9371994d6@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="100 -999 275" _prev_rot="-3.09086e-008 0.707107 0.707107 -3.09086e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_002" position="100 -999 275" rotation="-3.09086e-008 0.707107 0.707107 -3.09086e-008" unit_id="100067">
+				<editable_gui align="center" alpha="0.80046" blend_mode="normal" font="fonts/font_eroded" font_color="0 0 0" font_size="4" render_template="diffuse_vc_decal" text="SWAT" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-900 999 275" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_003" position="-900 999 275" rotation="-0.707107 0 0 -0.707107" unit_id="100068">
+				<editable_gui align="center" alpha="0.80046" blend_mode="normal" font="fonts/font_eroded" font_color="0 0 0" font_size="4" render_template="diffuse_vc_decal" text="HEISTERS" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="900 -399 250" _prev_rot="-3.09086e-008 0.707107 0.707107 -3.09086e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_004" position="900 -399 250" rotation="-3.09086e-008 0.707107 0.707107 -3.09086e-008" unit_id="100069">
+				<editable_gui align="center" alpha="0.80046" blend_mode="normal" font="fonts/font_eroded" font_color="0 0 0" font_size="3" render_template="diffuse_vc_decal" text="ARMORY" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1 -200 250" _prev_rot="-0.5 0.5 0.5 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_005" position="-1 -200 250" rotation="-0.5 0.5 0.5 -0.5" unit_id="100070">
+				<editable_gui align="center" alpha="0.80046" blend_mode="normal" font="fonts/font_eroded" font_color="0 0 0" font_size="3" render_template="diffuse_vc_decal" text="ARMORY" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-400 -1000 225" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pvp/props/prop_long_lamp/prop_long_lamp" name_id="prop_long_lamp_004" position="-400 -1000 225" rotation="-0.707107 0 0 -0.707107" unit_id="100071"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-400 -900 225" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 -100" local_rot="-0.707107 0 0 0.707107" name="core/units/light_omni/light_omni" name_id="light_omni_015" only_visible_in_editor="true" position="-400 -900 225" rotation="-0 0 -0 -1" unit_id="100072">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.776471 0.87451 1" enabled="true" falloff_exponent="1" far_range="400" multiplier="@ID748ce7d9371994d6@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-400 1000 225" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pvp/props/prop_long_lamp/prop_long_lamp" name_id="prop_long_lamp_008" position="-400 1000 225" rotation="3.09086e-008 -0.707107 -0.707107 3.09086e-008" unit_id="100073"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-400 900 225" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_016" only_visible_in_editor="true" position="-400 900 225" rotation="-0 0 -0 -1" unit_id="100074">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.776471 0.87451 1" enabled="true" falloff_exponent="1" far_range="400" multiplier="@ID748ce7d9371994d6@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="346 -839 102" _prev_rot="-0.287606 0.287606 0.645974 -0.645974" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pvp/props/prop_weapon_selection/prop_weapon_amcar/prop_weapon_amcar" name_id="prop_weapon_amcar_001" position="354.175 -839 94.6396" rotation="-0.287606 0.287606 0.645974 -0.645974" unit_id="100075"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="354.175 -868 94.64" _prev_rot="-0.287606 0.287606 0.645974 -0.645974" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pvp/props/prop_weapon_selection/prop_weapon_g36/prop_weapon_g36" name_id="prop_weapon_g36_001" position="354.175 -868 94.64" rotation="-0.287606 0.287606 0.645974 -0.645974" unit_id="100076"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="400 -800 150" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_017" only_visible_in_editor="true" position="400 -800 150" rotation="-0 0 -0 -1" unit_id="100077">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="1" far_range="500" multiplier="@IDbca13ba1d306f87b@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="400 -800 150" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_018" only_visible_in_editor="true" position="400 -1000 150" rotation="0 0 0 -1" unit_id="100078">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="1" far_range="500" multiplier="@IDbca13ba1d306f87b@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="400 -1000 150" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_019" only_visible_in_editor="true" position="400 -1200 150" rotation="0 0 0 -1" unit_id="100079">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="1" far_range="500" multiplier="@IDbca13ba1d306f87b@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="400 -1200 150" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_020" only_visible_in_editor="true" position="400 -1400 150" rotation="0 0 0 -1" unit_id="100080">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="1" far_range="500" multiplier="@IDbca13ba1d306f87b@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="354.175 -893 94.64" _prev_rot="-0.287606 0.287606 0.645974 -0.645974" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pvp/props/prop_weapon_selection/prop_weapon_g36/prop_weapon_g36" name_id="prop_weapon_g36_002" position="354.175 -895 94.64" rotation="-0.287606 0.287606 0.645974 -0.645974" unit_id="100081"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="354.175 -895 94.64" _prev_rot="-0.287606 0.287606 0.645974 -0.645974" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pvp/props/prop_weapon_selection/prop_weapon_g36/prop_weapon_g36" name_id="prop_weapon_g36_003" position="354.175 -922 94.64" rotation="-0.287606 0.287606 0.645974 -0.645974" unit_id="100082"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="354.175 -951 94.64" _prev_rot="-0.287606 0.287606 0.645974 -0.645974" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pvp/props/prop_weapon_selection/prop_weapon_g36/prop_weapon_g36" name_id="prop_weapon_g36_004" position="354.175 -951 94.64" rotation="-0.287606 0.287606 0.645974 -0.645974" unit_id="100083"/>
+		</table>
+	</statics>
+	<values>
+		<workviews/>
+	</values>
+</table>

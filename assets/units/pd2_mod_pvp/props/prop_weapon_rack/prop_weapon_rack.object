@@ -1,0 +1,42 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_pvp/props/prop_weapon_rack/prop_weapon_rack" orientation_object="rp_chl_prop_workshop_chains_weapon_rack_v2" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_chl_prop_workshop_chains_weapon_rack_v2" />
+			<object name="c_box_1" collision_type="box" padding="-2.5" />
+			<object name="c_box_2" collision_type="box" padding="-2.5" />
+			<object name="c_box_3" collision_type="box" padding="-2.5" />
+			<object name="c_box_5" collision_type="box" padding="-2.5" />
+			<object name="c_box_4" collision_type="box" padding="-2.5" />
+			<object name="c_box_6" collision_type="box" padding="-2.5" />
+			<object name="c_box_7" collision_type="box" padding="-2.5" />
+			<object name="c_box_8" collision_type="box" padding="-2.5" />
+			<object name="c_box_9" collision_type="box" padding="-2.5" />
+			<object name="c_box_10" collision_type="box" padding="-2.5" />
+			<object name="c_box_11" collision_type="box" padding="-2.5" />
+			<object name="c_box_12" collision_type="box" padding="-2.5" />
+			<object name="c_box_13" collision_type="box" padding="-2.5" />
+			<object name="c_box_14" collision_type="box" padding="-2.5" />
+			<object name="c_box_15" collision_type="box" padding="-2.5" />
+			<object name="c_box_16" collision_type="box" padding="-2.5" />
+			<object name="c_box_17" collision_type="box" padding="-2.5" />
+			<object name="c_box_18" collision_type="box" padding="-2.5" />
+			<object name="c_box_19" collision_type="box" padding="-2.5" />
+			<object name="c_box_20" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="metal">
+		<decal_mesh name="dm_metal" enabled="true" material="metal" />
+	</decal_surfaces>
+	<graphics>
+		<lod_object name="weaponrack_mat_lod">
+            <object name="g_weaponrack" enabled="true">
+                <material materials="mat_metal_rack" max_distance="800" />
+                <material materials="mat_metal_rack_lod1" max_distance="1600"/>       
+                <material materials="mat_metal_rack_lod2" />        
+            </object>
+        </lod_object>
+
+		<object name="s_s" enabled="true" shadow_caster="true" />
+	</graphics>
+</dynamic_object>

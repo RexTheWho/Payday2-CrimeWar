@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<modelscript>
+    <object3d name="rp_root" mode="add">
+        <parent root="true" />
+    </object3d>
+</modelscript>

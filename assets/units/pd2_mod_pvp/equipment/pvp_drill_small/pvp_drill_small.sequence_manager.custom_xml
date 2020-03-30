@@ -1,0 +1,84 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'show'" triggable="true">
+			<interaction enabled="true"/>
+			<function extension="'digital_gui'" function="'set_visible'" param1="false"/>
+			<body enabled="true" name="'body_static'"/>
+			<object enabled="false" name="'g_base'"/>
+			<object enabled="false" name="'g_drill'"/>
+			<object enabled="false" name="'g_drill_drill'"/>
+			<graphic_group name="'icon'" visibility="true"/>
+			<object enabled="false" name="'g_screen_off'"/>
+			<decal_mesh enabled="true" name="'g_base'"/>
+			<decal_mesh enabled="true" name="'g_drill'"/>
+			<body enabled="false" name="'body_animated_01'"/>
+			<body enabled="false" name="'body_animated_02'"/>
+			<body enabled="false" name="'body_animated_03'"/>
+			<body enabled="false" name="'body_animated_04'"/>
+			<body enabled="false" name="'body_animated_05'"/>
+			<body enabled="false" name="'body_animated_06'"/>
+			<effect_spawner enabled="false" name="'effect_drill_jammed'"/>
+			<effect_spawner enabled="false" name="'effect_drill'"/>
+		</sequence>
+		<sequence editable_state="true" name="'hide'" triggable="true">
+			<interaction enabled="false"/>
+			<function extension="'digital_gui'" function="'set_visible'" param1="false"/>
+			<animation_group enabled="false" from="0/30" loop="false" name="'anim'" speed="0" to="0"/>
+			<body enabled="false" name="'body_animated_01'"/>
+			<body enabled="false" name="'body_animated_02'"/>
+			<body enabled="false" name="'body_animated_03'"/>
+			<body enabled="false" name="'body_animated_04'"/>
+			<body enabled="false" name="'body_animated_05'"/>
+			<body enabled="false" name="'body_animated_06'"/>
+			<body enabled="false" name="'body_static'"/>
+			<object enabled="false" name="'g_base'"/>
+			<object enabled="false" name="'g_drill'"/>
+			<object enabled="false" name="'g_drill_drill'"/>
+			<object enabled="false" name="'g_screen_off'"/>
+			<graphic_group name="'icon'" visibility="false"/>
+			<decal_mesh enabled="false" name="'g_base'"/>
+			<decal_mesh enabled="false" name="'g_drill'"/>
+			<effect_spawner enabled="false" name="'effect_drill_jammed'"/>
+			<effect_spawner enabled="false" name="'effect_drill'"/>
+		</sequence>
+		
+		
+		<sequence editable_state="true" name="'interact'" triggable="true">
+			<function extension="'digital_gui'" function="'set_visible'" param1="true"/>
+			<animation_group enabled="true" from="0/30" name="'anim_collision'" to="10/30"/>
+			<animation_group enabled="true" from="0/30" name="'anim_collision'" to="30/30"/>
+			<animation_group enabled="true" from="0/30" loop="true" name="'anim'" speed="1" to="30"/>
+			<body enabled="true" name="'body_animated_01'"/>
+			<body enabled="true" name="'body_animated_02'"/>
+			<body enabled="true" name="'body_animated_03'"/>
+			<body enabled="true" name="'body_animated_04'"/>
+			<body enabled="true" name="'body_animated_05'"/>
+			<body enabled="true" name="'body_animated_06'"/>
+			<sound action="'play'" event="'drill_apply_end'" object="'int_location'"/>
+			<decal_mesh enabled="true" name="'g_base'"/>
+			<decal_mesh enabled="true" name="'g_drill'"/>
+			<body enabled="true" name="'body_static'"/>
+			<object enabled="true" name="'g_base'"/>
+			<object enabled="true" name="'g_drill'"/>
+			<object enabled="true" name="'g_drill_drill'"/>
+			<graphic_group name="'icon'" visibility="false"/>
+			<object enabled="false" name="'g_screen_off'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'jammed'" triggable="true">
+			<function extension="'digital_gui'" function="'set_color_type'" param1="'black'"/>
+			<function extension="'digital_gui'" function="'set_bg_color_type'" param1="'light_red'"/>
+			<animation_group enabled="true" from="0/30" loop="true" name="'anim'" speed="0" to="30"/>
+			<effect_spawner enabled="false" name="'effect_drill_jammed'"/>
+			<effect_spawner enabled="true" name="'effect_drill'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'fixed'" triggable="true">
+			<function extension="'digital_gui'" function="'set_color_type'" param1="'black'"/>
+			<function extension="'digital_gui'" function="'set_bg_color_type'" param1="'light_blue'"/>
+			<animation_group enabled="true" from="0/30" loop="true" name="'anim'" speed="1" to="30"/>
+			<effect_spawner enabled="true" name="'effect_drill_jammed'"/>
+			<effect_spawner enabled="false" name="'effect_drill'"/>
+		</sequence>
+	</unit>
+</table>

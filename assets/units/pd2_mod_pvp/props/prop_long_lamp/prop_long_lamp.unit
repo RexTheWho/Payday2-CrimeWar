@@ -1,0 +1,9 @@
+<unit type="gen" slot="1" >
+    <object file="units/pd2_mod_pvp/props/prop_long_lamp/prop_long_lamp" />
+	<dependencies>
+    	<depends_on effect="units/pd2_mod_pvp/props/prop_long_lamp/prop_long_lamp_blue_effect" />
+    </dependencies>
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>

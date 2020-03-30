@@ -1,0 +1,8 @@
+<unit type="gen" slot="1" >
+    <object file="units/pd2_mod_pvp/props/prop_help_screen/prop_help_screen" />
+	<network sync="spawn"/>
+  <extensions>
+    <extension name="unit_data" class="ScriptUnitData" />
+	<extension name="damage" class="UnitDamage" />
+  </extensions>
+</unit>

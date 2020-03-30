@@ -1,0 +1,24 @@
+<table>
+	<editor_groups/>
+	<instances/>
+	<statics>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" disable_on_ai_graph="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_pvp/equipment/pvp_safe/pvp_safe" name_id="SAFE" position="0 0 0" rotation="0 0 0 -1" unit_id="100000"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="42 -20 60" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_on_ai_graph="true" disable_shadows="true" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_pvp/equipment/pvp_drill_small/pvp_drill_small" name_id="DRILL" position="42 -20 60" rotation="0 0 -0.707107 -0.707107" unit_id="100001"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 15" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pvp/props/prop_safe_loot/prop_safe_large" name_id="pvp_loot_large" position="0 0 15" rotation="0 0 -0.707107 -0.707107" unit_id="100002"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 15" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pvp/props/prop_safe_loot/prop_safe_medium" name_id="pvp_loot_medium" position="0 0 15" rotation="0 0 -0.707107 -0.707107" unit_id="100003"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 15" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pvp/props/prop_safe_loot/prop_safe_small" name_id="pvp_loot_small" position="0 0 15" rotation="0 0 -0.707107 -0.707107" unit_id="100004"/>
+		</table>
+	</statics>
+	<values>
+		<workviews/>
+	</values>
+</table>

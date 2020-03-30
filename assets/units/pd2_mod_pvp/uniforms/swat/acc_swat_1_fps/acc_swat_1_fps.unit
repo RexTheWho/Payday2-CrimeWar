@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<unit type="pvp" slot="1">
+	<object file="units/pd2_mod_pvp/uniforms/swat/acc_swat_1_fps/acc_swat_1_fps" />
+
+	<dependencies>
+		<depends_on bnk="soundbanks/regular_vox" />
+	</dependencies>
+
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="contour" class="ContourExt" />
+	</extensions>
+
+</unit>

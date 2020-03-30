@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/pd2_mod_pvp/props/prop_help_screen/prop_help_screen" orientation_object="rp_root" />
+  <sequence_manager file="units/pd2_mod_pvp/props/prop_help_screen/prop_help_screen" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+      <object name="rp_root" />
+      <object name="g_g" collision_type="box" />
+    </body>
+  </bodies>
+
+  <graphics>
+    <object name="g_g" enabled="true" />
+    <object name="g_monitor_01" enabled="true" />
+  </graphics>
+</dynamic_object>

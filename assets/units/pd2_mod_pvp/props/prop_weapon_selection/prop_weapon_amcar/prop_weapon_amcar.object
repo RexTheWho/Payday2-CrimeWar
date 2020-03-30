@@ -1,0 +1,12 @@
+<dynamic_object>
+    <diesel orientation_object="rp_wpn_static_amcar" materials="units/pd2_mod_pvp/props/prop_weapon_selection/prop_weapon_amcar/prop_weapon_amcar" />
+	<sequence_manager file="units/pd2_mod_pvp/props/prop_weapon_selection/prop_weapon_selection" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object collision_type="box" name="c_box" />
+        </body>
+    </bodies>
+    <graphics>
+        <object enabled="true" name="g_amcar_third_static" />
+    </graphics>
+</dynamic_object>

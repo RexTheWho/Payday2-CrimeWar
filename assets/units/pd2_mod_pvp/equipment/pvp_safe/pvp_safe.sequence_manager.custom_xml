@@ -1,0 +1,54 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'show_big'" triggable="true">
+			<object enabled="true" name="'g_safe_big'"/>
+			<object enabled="true" name="'g_safe_big_door'"/>
+			<decal_mesh enabled="true" name="'g_safe_big'"/>
+			<decal_mesh enabled="true" name="'g_safe_big_door'"/>
+			<body enabled="true" name="'safe_big_body'"/>
+			<body enabled="true" name="'door_big_body'"/>
+			<object enabled="false" name="'g_safe_small'"/>
+			<object enabled="false" name="'g_safe_small_door'"/>
+			<decal_mesh enabled="false" name="'g_safe_small'"/>
+			<decal_mesh enabled="false" name="'g_safe_small_door'"/>
+			<body enabled="false" name="'safe_small_body'"/>
+			<body enabled="false" name="'door_small_body'"/>
+		</sequence>
+		<sequence editable_state="true" name="'show_small'" triggable="true">
+			<object enabled="true" name="'g_safe_small'"/>
+			<object enabled="true" name="'g_safe_small_door'"/>
+			<decal_mesh enabled="true" name="'g_safe_small'"/>
+			<decal_mesh enabled="true" name="'g_safe_small_door'"/>
+			<body enabled="true" name="'safe_small_body'"/>
+			<body enabled="true" name="'door_small_body'"/>
+			<object enabled="false" name="'g_safe_big'"/>
+			<object enabled="false" name="'g_safe_big_door'"/>
+			<decal_mesh enabled="false" name="'g_safe_big'"/>
+			<decal_mesh enabled="false" name="'g_safe_big_door'"/>
+			<body enabled="false" name="'safe_big_body'"/>
+			<body enabled="false" name="'door_big_body'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'hide'" triggable="true">
+			<object enabled="false" name="'g_safe_big'"/>
+			<object enabled="false" name="'g_safe_big_door'"/>
+			<decal_mesh enabled="false" name="'g_safe_big'"/>
+			<decal_mesh enabled="false" name="'g_safe_big_door'"/>
+			<body enabled="false" name="'safe_big_body'"/>
+			<body enabled="false" name="'door_big_body'"/>
+			<object enabled="false" name="'g_safe_small'"/>
+			<object enabled="false" name="'g_safe_small_door'"/>
+			<decal_mesh enabled="false" name="'g_safe_small'"/>
+			<decal_mesh enabled="false" name="'g_safe_small_door'"/>
+			<body enabled="false" name="'safe_small_body'"/>
+			<body enabled="false" name="'door_small_body'"/>
+		</sequence>
+		
+<!-- 		<sequence editable_state="true" name="'state_end_safe'" triggable="true" startup="true">
+			<animation_group enabled="true" from="52/30" name="'fall_anim'" to="52/30"/>
+		</sequence> -->
+		<sequence editable_state="true" name="'safe_open_door'" triggable="true">
+			<animation_group enabled="true" from="65/30" name="'door_anim'"/>
+		</sequence>
+	</unit>
+</table>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<unit type="prop" slot="1">
+	<object file="units/pd2_mod_pvp/props/prop_safe_loot/prop_safe_small" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+	</extensions>
+</unit>

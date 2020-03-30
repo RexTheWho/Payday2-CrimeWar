@@ -1,0 +1,17 @@
+{
+	"heist_pvp_name":				"CRIME WAR",
+	"heist_pvp_brief":				"CRIME WAR",
+	"heist_pvp_bankheist_name":		"Branch Bank",
+	"heist_pvp_bankheist_brief":	"Branch Bank",
+	
+	"pvp_team_crim_text":"HEIST GEAR",
+	"pvp_team_swat_text":"SWAT GEAR",
+	"pvp_drill_place":"Hold $BTN_INTERACT to place drill",
+	"pvp_drill_no_drill":"Defend the safe!",
+	"pvp_times_almost_up_text":	"Time is almost up!",
+	"pvp_crim_win_text":		"Heisters Win!",
+	"pvp_swat_win_text":		"Police Win!",
+	"pvp_take_wep_primary":		"Press $BTN_INTERACT to take Primary Weapon.",
+	"pvp_take_wep_secondary":	"Press $BTN_INTERACT to take Secondary Weapon.",
+	"":""
+}

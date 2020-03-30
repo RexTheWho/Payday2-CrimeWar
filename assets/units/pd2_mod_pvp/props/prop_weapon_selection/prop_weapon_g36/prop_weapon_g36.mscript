@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<modelscript>
+    <import file="prop_weapon_g36.glb" type="gltf" create_objects="true"/>
+</modelscript>

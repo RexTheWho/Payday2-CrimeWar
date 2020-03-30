@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<modelscript>
+
+    <object3d name="rp_rootpoint" mode="add">
+        <parent root="true" />
+    </object3d>
+    <object3d name="anim_a_safe" mode="edit">
+        <parent name="rp_rootpoint" />
+    </object3d>
+    
+    <import file="pvp_safe.obj" type="obj" create_objects="true">
+        <rootpoint name="anim_a_safe">
+            <default/>
+        </rootpoint>
+    </import>
+	
+    <object3d name="g_safe_big" mode="edit">
+        <parent name="anim_a_safe" />
+        <position x="0" y="0" z="0.0762950554" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="g_safe_small" mode="edit">
+        <parent name="anim_a_safe" />
+        <position x="0" y="0" z="0.0762950554" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="g_safe_big_door" mode="edit">
+        <parent name="a_safedoor" />
+        <position x="-3.05606294" y="-23.1711044" z="-1.70498729" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="g_safe_small_door" mode="edit">
+        <parent name="a_safedoor" />
+        <position x="-3.05606294" y="-23.1711044" z="-1.70498729" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+</modelscript>

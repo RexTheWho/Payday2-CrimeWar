@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<modelscript>
+    <import file="player_hitboxes.obj" type="obj" create_objects="true">
+	
+        <rootpoint name="LeftUpLeg">
+            <object name="c_capsule_leg_left" />
+        </rootpoint>
+        <rootpoint name="LeftLeg">
+            <object name="c_capsule_shin_left" />
+        </rootpoint>
+        <rootpoint name="RightUpLeg">
+            <object name="c_capsule_leg_right" />
+        </rootpoint>
+        <rootpoint name="RightLeg">
+            <object name="c_capsule_shin_right" />
+        </rootpoint>
+		
+        <rootpoint name="LeftArm">
+            <object name="c_capsule_arm_left" />
+        </rootpoint>
+        <rootpoint name="LeftForeArm">
+            <object name="c_capsule_forearm_left" />
+        </rootpoint>
+        <rootpoint name="RightArm">
+            <object name="c_capsule_arm_right" />
+        </rootpoint>
+        <rootpoint name="RightForeArm">
+            <object name="c_capsule_forearm_right" />
+        </rootpoint>
+		
+    </import>
+    <object3d name="c_capsule_body" mode="edit">
+        <position x="0" y="-10" z="-3" />
+        <rotation w="0.999048" x="-0.043619" y="0" z="0" />
+    </object3d>
+	
+    <object3d name="c_capsule_arm_left" mode="edit">
+        <position x="11" y="0" z="0" />
+        <rotation w="0.5" x="-0.5" y="0.5" z="0.5" />
+    </object3d>
+    <object3d name="c_capsule_arm_right" mode="edit">
+        <position x="-11" y="0" z="0" />
+        <rotation w="0.5" x="-0.5" y="0.5" z="0.5" />
+    </object3d>
+	
+    <object3d name="c_capsule_forearm_left" mode="edit">
+        <position x="15" y="0" z="0" />
+        <rotation w="0.5" x="-0.5" y="0.5" z="0.5" />
+    </object3d>
+    <object3d name="c_capsule_forearm_right" mode="edit">
+        <position x="-15" y="0" z="0" />
+        <rotation w="0.5" x="-0.5" y="0.5" z="0.5" />
+    </object3d>
+	
+    <object3d name="c_capsule_leg_left" mode="edit">
+        <position x="0" y="-30" z="-5" />
+        <rotation w="0.999048" x="0" y="-0.043619" z="0" />
+    </object3d>
+    <object3d name="c_capsule_shin_left" mode="edit">
+        <position x="0" y="-22" z="-2" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+	
+	<!--Right leg is negative of left-->
+    <object3d name="c_capsule_leg_right" mode="edit">
+        <position x="0" y="30" z="5" />
+        <rotation w="0.999048" x="0" y="0.043619" z="0" />
+    </object3d>
+    <object3d name="c_capsule_shin_right" mode="edit">
+        <position x="0" y="22" z="2" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+</modelscript>

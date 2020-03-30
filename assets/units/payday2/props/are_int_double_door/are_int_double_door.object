@@ -1,0 +1,64 @@
+<dynamic_object>
+	<diesel materials="units/payday2/props/are_int_double_door/are_int_double_door" orientation_object="rp_are_int_double_door" />
+	<sequence_manager file="units/payday2/props/are_int_double_door/are_int_double_door" />
+	<animations>
+		<animation_group name="grp_anim_doors" enabled="false">
+				<object name="anim_door1" />
+				<object name="anim_door2" />
+				<object name="anim_door_hinge_1" />
+				<object name="anim_door_hinge_2" />
+				<object name="anim_door_hinge_1_1" />
+				<object name="anim_door_hinge_2_1" />
+		</animation_group>
+	</animations>
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_are_int_double_door" />
+			<object name="c_box_05" collision_type="box" padding="-2.5" />
+			<object name="c_box_06" collision_type="box" padding="-2.5" />
+			<object name="c_box_07" collision_type="box" padding="-2.5" />
+			<object name="c_box_08" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_anim_door1" enabled="true" template="animated">
+			<object name="anim_door1" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_02" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_anim_door2" enabled="true" template="animated">
+			<object name="anim_door2" />
+			<object name="c_box_03" collision_type="box" padding="-2.5" />
+			<object name="c_box_04" collision_type="box" padding="-2.5" />
+		</body>
+
+		<body enabled="false" template="static" name="body_lock" >
+            <object name="c_lock" collision_type="box" padding="-2.5" />
+        </body>
+
+	</bodies> 
+	<decal_surfaces default_material="metal">
+		<decal_mesh name="dm_metal_01" enabled="true" material="metal" />
+		<decal_mesh name="dm_metal_02" enabled="true" material="metal" />
+		<decal_mesh name="dm_metal_03" enabled="true" material="metal" />
+	</decal_surfaces>
+	<graphics>
+		<graphic_group name="grp_doors" enabled="true" culling_object="co_box">
+			<lod_object name="lod_door">
+            <object name="g_door" enabled="true" >
+                <material materials="are_int_double_door" max_distance="800" />
+                <material materials="are_int_double_door_lod1" max_distance="1500" />
+                <material materials="are_int_double_door_lod2" />
+            </object> 
+        </lod_object>
+
+
+			<object name="g_glass_left" enabled="true" />
+			<object name="g_glass_right" enabled="true" />
+		</graphic_group>
+		<graphic_group name="grp_saw_icon" enabled="false">
+			<lod_object name="grp_lod_g_icon_saw">
+				<object name="g_icon_saw_lod0" enabled="true" max_distance="500" />
+				<object name="g_icon_saw_lod1" enabled="true" />
+			</lod_object>
+		</graphic_group>
+	</graphics>
+</dynamic_object>

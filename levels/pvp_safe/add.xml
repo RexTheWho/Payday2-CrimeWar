@@ -1,0 +1,48 @@
+<table directory="assets">
+	<add unload_on_restart="true">
+		<texture			path="units/pd2_mod_pvp/guis/icon_swat_white" unload="true"/>
+		<texture			path="units/pd2_mod_pvp/guis/icon_crim_white" unload="true"/>
+		<texture			path="units/pd2_mod_pvp/guis/wp_safe_small" unload="true"/>
+		<texture			path="units/pd2_mod_pvp/guis/wp_safe_big" unload="true"/>
+		<texture			path="units/pd2_mod_pvp/guis/wp_safe_drill" unload="true"/>
+		<texture			path="units/pd2_mod_pvp/guis/wp_safe_defend" unload="true"/>
+		<texture			path="units/pd2_mod_pvp/guis/wp_safe_alert" unload="true"/>
+		<unit				path="units/pd2_mod_pvp/equipment/pvp_safe/pvp_safe" unload="true"/>
+		<object				path="units/pd2_mod_pvp/equipment/pvp_safe/pvp_safe" unload="true"/>
+		<model				path="units/pd2_mod_pvp/equipment/pvp_safe/pvp_safe" unload="true"/>
+		<material_config	path="units/pd2_mod_pvp/equipment/pvp_safe/pvp_safe" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_pvp/equipment/pvp_safe/pvp_safe" unload="true"/>
+		<effect	load="true"	path="units/pd2_mod_pvp/equipment/pvp_safe/pvp_safe_money" unload="true"/>
+		<unit				path="units/pd2_mod_pvp/equipment/pvp_drill_small/pvp_drill_small" unload="true"/>
+		<object				path="units/pd2_mod_pvp/equipment/pvp_drill_small/pvp_drill_small" unload="true"/>
+		<model				path="units/pd2_mod_pvp/equipment/pvp_drill_small/pvp_drill_small" unload="true"/>
+		<material_config	path="units/pd2_mod_pvp/equipment/pvp_drill_small/pvp_drill_small" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_pvp/equipment/pvp_drill_small/pvp_drill_small" unload="true"/>
+		<effect	load="true"	path="units/pd2_mod_pvp/equipment/pvp_drill_small/drill" />
+		<effect	load="true"	path="units/pd2_mod_pvp/equipment/pvp_drill_small/drill_jammed" />
+		<effect	load="true"	path="units/pd2_mod_pvp/equipment/pvp_drill_small/drill_sparks" />
+		<effect	load="true"	path="units/pd2_mod_pvp/equipment/pvp_drill_small/drill_sparks_particles" />
+		<font	load="true"	path="fonts/font_digital" unload="true"/>
+		
+		<material_config	path="units/pd2_mod_pvp/props/prop_safe_loot/prop_safe_loot" unload="true"/>
+		<unit				path="units/pd2_mod_pvp/props/prop_safe_loot/prop_safe_small" unload="true"/>
+		<object				path="units/pd2_mod_pvp/props/prop_safe_loot/prop_safe_small" unload="true"/>
+		<model				path="units/pd2_mod_pvp/props/prop_safe_loot/prop_safe_small" unload="true"/>
+		<unit				path="units/pd2_mod_pvp/props/prop_safe_loot/prop_safe_medium" unload="true"/>
+		<object				path="units/pd2_mod_pvp/props/prop_safe_loot/prop_safe_medium" unload="true"/>
+		<model				path="units/pd2_mod_pvp/props/prop_safe_loot/prop_safe_medium" unload="true"/>
+		<unit				path="units/pd2_mod_pvp/props/prop_safe_loot/prop_safe_large" unload="true"/>
+		<object				path="units/pd2_mod_pvp/props/prop_safe_loot/prop_safe_large" unload="true"/>
+		<model				path="units/pd2_mod_pvp/props/prop_safe_loot/prop_safe_large" unload="true"/>
+	</add>
+	<add path="units/test/jocke/plane_black_temp" type="unit">
+		<material_config path="units/test/jocke/plane_black_temp" unload="true"/>
+		<object path="units/test/jocke/plane_black_temp" unload="true"/>
+		<unit path="units/test/jocke/plane_black_temp" unload="true"/>
+	</add>
+	<add path="units/dev_tools/editable_text_long/editable_text_long" type="unit">
+		<material_config path="units/dev_tools/editable_text_long/editable_text_long" unload="true"/>
+		<object path="units/dev_tools/editable_text_long/editable_text_long" unload="true"/>
+		<unit path="units/dev_tools/editable_text_long/editable_text_long" unload="true"/>
+	</add>
+</table>

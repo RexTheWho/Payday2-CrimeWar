@@ -1,0 +1,15 @@
+<xml>
+	<animatable_set name="fps_mover_anims">
+		<bone name="rp_mover" root="true" alignment="true" alias="all root"/>
+	</animatable_set>
+	
+	<blend_set name="all" animatable_set="fps_mover_anims">
+		<blend alias="all" weight="1.0"/>
+	</blend_set>
+	
+
+	<animation_set name="fps_mover_anims" animatable_set="fps_mover_anims">
+		<subset file="anims/units/fps_mover/fps_mover_std" />
+	</animation_set>
+	
+</xml>

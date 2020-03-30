@@ -1,0 +1,98 @@
+<xml>
+	<animatable_set name="fps">
+		<bone name="root_point" root="true" alignment="true" alias="link root"/>
+		
+		<bone name="Spine2" alias="all"/>
+		
+		<bone name="RightShoulder" alias="right_arm all"/>
+		<bone name="RightArm" alias="right_arm all"/>
+		<bone name="RightForeArm" alias="right_arm all"/>
+		<bone name="RightForeArmRoll" alias="right_arm all"/>
+		<bone name="RightHand" alias="right_arm all"/>
+		
+		<bone name="RightHandThumb1" alias="right_thumb right_finger all"/>
+		<bone name="RightHandThumb2" alias="right_thumb right_finger all"/>
+		<bone name="RightHandThumb3" alias="right_thumb right_finger all"/>
+		<bone name="RightHandPinky1" alias="right_finger all"/>
+		<bone name="RightHandPinky2" alias="right_finger all"/>
+		<bone name="RightHandPinky3" alias="right_finger all"/>
+		<bone name="RightHandRing1" alias="right_finger all"/>
+		<bone name="RightHandRing2" alias="right_finger all"/>
+		<bone name="RightHandRing3" alias="right_finger all"/>
+		<bone name="RightHandMiddle1" alias="right_finger all"/>
+		<bone name="RightHandMiddle2" alias="right_finger all"/>
+		<bone name="RightHandMiddle3" alias="right_finger all"/>
+		<bone name="RightHandIndex1" alias="right_finger all"/>
+		<bone name="RightHandIndex2" alias="right_finger all"/>
+		<bone name="RightHandIndex3" alias="right_finger all"/>
+
+		<bone name="RightPinkyKnuckle" alias="right_finger all"/>
+		<bone name="RightRingKnuckle" alias="right_finger all"/>
+		<bone name="RightMiddleKnuckle" alias="right_finger all"/>
+		<bone name="RightIndexKnuckle" alias="right_finger all"/>
+		
+		<bone name="RightShirtSleeve" alias="right_arm all"/>
+		<bone name="RightSuitSleeve" alias="right_arm all"/>
+
+		<bone name="RightSuitMotionFront" alias="right_arm all"/>
+		<bone name="RightSuitMotionBack" alias="right_arm all"/>
+		<bone name="RightSuitMotionTop" alias="right_arm all"/>
+		<bone name="RightSuitMotionBottom" alias="right_arm all"/>
+		
+		<bone name="LeftShoulder" alias="left_arm all"/>
+		<bone name="LeftArm" alias="left_arm all"/>
+		<bone name="LeftForeArm" alias="left_arm all"/>
+		<bone name="LeftForeArmRoll" alias="right_arm all"/>
+		<bone name="LeftHand" alias="left_arm all"/>
+		
+		<bone name="LeftHandThumb1" alias="left_finger all"/>
+		<bone name="LeftHandThumb2" alias="left_finger all"/>
+		<bone name="LeftHandThumb3" alias="left_finger all"/>
+		<bone name="LeftHandPinky1" alias="left_finger all"/>
+		<bone name="LeftHandPinky2" alias="left_finger all"/>
+		<bone name="LeftHandPinky3" alias="left_finger all"/>
+		<bone name="LeftHandRing1" alias="left_finger all"/>
+		<bone name="LeftHandRing2" alias="left_finger all"/>
+		<bone name="LeftHandRing3" alias="left_finger all"/>
+		<bone name="LeftHandMiddle1" alias="left_finger all"/>
+		<bone name="LeftHandMiddle2" alias="left_finger all"/>
+		<bone name="LeftHandMiddle3" alias="left_finger all"/>
+		<bone name="LeftHandIndex1" alias="left_finger all"/>
+		<bone name="LeftHandIndex2" alias="left_finger all"/>
+		<bone name="LeftHandIndex3" alias="left_finger all"/>
+
+		<bone name="LeftPinkyKnuckle" alias="left_finger all"/>
+		<bone name="LeftRingKnuckle" alias="left_finger all"/>
+		<bone name="LeftMiddleKnuckle" alias="left_finger all"/>
+		<bone name="LeftIndexKnuckle" alias="left_finger all"/>
+		
+		<bone name="LeftShirtSleeve" alias="left_arm all"/>
+		<bone name="LeftSuitSleeve" alias="left_arm all"/>
+		
+		<bone name="LeftSuitMotionBack" alias="left_arm all"/>
+		<bone name="LeftSuitMotionFront" alias="left_arm all"/>
+		<bone name="LeftSuitMotionBottom" alias="left_arm all"/>
+		<bone name="LeftSuitMotionTop" alias="left_arm all"/>
+		
+		<bone name="a_weapon_right" alias="all recoil"/>
+		<bone name="a_weapon_left" alias="all recoil"/>
+		
+	</animatable_set>
+	
+	<blend_set name="all" animatable_set="fps">
+		<blend alias="all" weight="1.0"/>
+		<blend alias="link" weight="0"/>
+	</blend_set>
+	
+	<!--modifier name="fix_for_shaky_hands" type="ik" animatable_set="fps" iterations="1" blend_in="1" blend_out="1">
+		<position type="script"/>
+		<target name="a_weapon_right_front"/>
+		<bone name="a_weapon_right_front" translate="1"/>
+		<bone name="RightHand" translate="0.25"/>
+		<bone name="RightForeArm" translate="0.25"/>
+	</modifier-->
+	
+	<animation_set name="fps" animatable_set="fps">
+		<subset file="anims/fps/fps_spawn"/>
+	</animation_set>	
+</xml>

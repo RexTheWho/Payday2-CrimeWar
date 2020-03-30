@@ -1,0 +1,8 @@
+<materials version="3">
+    <material name="shadow_caster"					render_template="shadow_caster_only:SKINNED_1WEIGHT" version="2" />
+    <material name="mat_player_tactical_outfit_fp"	render_template="generic:DEPTH_SCALING:DIFFUSE_TEXTURE:GLOBAL_ENVIRONMENT_MAPPING:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" version="2">
+        <diffuse_texture		file="units/pd2_dlc_dah/characters/dah_acc_fps_stealth_suit/player_tactical_outfit_fp_gsma"/>
+        <bump_normal_texture	file="units/pd2_dlc_dah/characters/dah_acc_fps_stealth_suit/player_tactical_outfit_fp_nm"/>
+        <material_texture		file="units/pd2_dlc_dah/characters/dah_acc_fps_stealth_suit/player_tactical_outfit_fp_gsma"/>
+    </material>
+</materials>

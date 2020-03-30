@@ -1,0 +1,14 @@
+<table>
+	<editor_groups/>
+	<instances>
+		<table continent="world" folder="levels/instances/mods/pvp_safe/world" index_size="250" mission_placed="true" name="pvp_safe_001" position="28981 -13896 0" rotation="0 0 0 1" script="default" start_index="0"/>
+		<table continent="world" folder="levels/instances/mods/pvp_safehouse/world" index_size="2000" name="pvp_safehouse_001" position="20000 -20000 0" rotation="-0 0 -0 -1" script="default" start_index="250"/>
+		<table continent="world" folder="levels/instances/mods/pvp_safe/world" index_size="2000" mission_placed="true" name="pvp_safe_002" position="17060 -16650 0" rotation="0 0 0 1" script="default" start_index="2250"/>
+		<table continent="world" folder="levels/instances/mods/pvp_safe/world" index_size="2000" mission_placed="true" name="pvp_safe_003" position="16060 -16250 0" rotation="0 0 0 1" script="default" start_index="4250"/>
+		<table continent="world" folder="levels/instances/mods/pvp_bankheist/world" index_size="2000" mission_placed="true" name="pvp_bankheist_001" position="0 0 0" rotation="-0 0 -0 -1" script="default" start_index="6250"/>
+	</instances>
+	<statics/>
+	<values>
+		<workviews/>
+	</values>
+</table>

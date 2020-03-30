@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/pd2_mod_pvp/equipment/pvp_safe/pvp_safe" orientation_object="rp_rootpoint" />
+  <sequence_manager file="units/pd2_mod_pvp/equipment/pvp_safe/pvp_safe" />
+	<animations>
+		<animation_group enabled="true" from="52/30" name="'fall_anim'" to="52/30">
+			<object name="anim_a_safe" />
+		</animation_group>
+		<animation_group name="door_anim" >
+			<object name="a_safedoor" />
+		</animation_group>
+	</animations>
+    <bodies>
+		<body name="safe_small_body" enabled="true" template="animated">
+			<object name="a_safedoor" />
+			<object name="g_safe_small_door" collision_type="mesh_mopp" />
+		</body>
+		<body name="safe_big_body" enabled="false" template="animated">
+			<object name="a_safedoor" />
+			<object name="g_safe_big_door" collision_type="mesh_mopp" />
+		</body>
+		
+		<body name="door_small_body" enabled="true" template="animated">
+			<object name="anim_a_safe" />
+			<object name="g_safe_small" collision_type="mesh_mopp" />
+		</body>
+		<body name="door_big_body" enabled="false" template="animated">
+			<object name="anim_a_safe" />
+			<object name="g_safe_big" collision_type="mesh_mopp" />
+		</body>
+		
+		<body name="editor_body" enabled="true" template="editor">
+			<object name="g_safe_small" collision_type="box"/>
+		</body>
+	</bodies>
+  
+    <decal_surfaces default_material="steel">
+    <decal_mesh name="g_safe_small"			material="steel" enabled="true" />
+    <decal_mesh name="g_safe_small_door"	material="steel" enabled="true" />
+    <decal_mesh name="g_safe_big"			material="steel" enabled="false" />
+    <decal_mesh name="g_safe_big_door"		material="steel" enabled="false" />
+  </decal_surfaces>
+  
+  <graphics>
+    <object name="g_safe_small"			enabled="true" />
+    <object name="g_safe_small_door"	enabled="true" />
+    <object name="g_safe_big"			enabled="false" />
+    <object name="g_safe_big_door"		enabled="false" />
+  </graphics>
+  
+</dynamic_object>

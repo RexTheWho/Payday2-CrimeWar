@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<unit type="item" slot="14" >
+    <object file="units/pd2_mod_pvp/equipment/deploy_gensec_scanner/deploy_gensec_scanner" />
+	<extensions>
+	</extensions>
+	<sounds>
+		<default_soundsource source="rp_gen_equipment_ammobag"/>
+	</sounds>
+</unit>

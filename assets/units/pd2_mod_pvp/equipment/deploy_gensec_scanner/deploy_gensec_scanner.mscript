@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<modelscript>
+
+    <object3d name="rp_root" mode="add">
+        <parent root="true" />
+    </object3d>
+    <object3d name="a_light" mode="add">
+        <parent name="a_rotate" />
+        <position x="4.4" y="12.5" z="52.6" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="snd_main" mode="add">
+        <parent name="rp_root" />
+        <position x="0" y="0" z="50" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+	
+    <import file="deploy_gensec_scanner.obj" type="obj" create_objects="true">
+        <rootpoint name="rp_root">
+            <default/>
+        </rootpoint>
+        <rootpoint name="a_rotate">
+            <object name="g_dish" />
+            <object name="ls_light" />
+        </rootpoint>
+    </import>
+    <object3d name="co_culling" mode="edit">
+        <parent name="rp_root" />
+        <position x="0" y="0" z="50" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="a_rotate" mode="edit">
+        <parent name="rp_root" />
+        <position x="0" y="0" z="0" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+	
+</modelscript>

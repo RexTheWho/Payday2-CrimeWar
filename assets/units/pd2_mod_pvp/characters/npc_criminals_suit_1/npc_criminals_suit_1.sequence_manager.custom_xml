@@ -1,0 +1,309 @@
+<table>
+	<unit>
+		<variables>
+			<var_material_config value="'units/payday2/characters/npc_criminals_suit_1/mtr_dallas'"/>
+			<var_head_replace value="0"/>
+			<var_body_replace value="0"/>
+			<var_hands_replace value="0"/>
+			<var_vest_replace value="0"/>
+			<var_armor_replace value="0"/>
+		</variables>
+		<filter name="'armor_state_1'">
+			<check value="vars.var_armor_state == 1"/>
+		</filter>
+		<filter name="'armor_state_2'">
+			<check value="vars.var_armor_state == 2"/>
+		</filter>
+		<filter name="'armor_state_3'">
+			<check value="vars.var_armor_state == 3"/>
+		</filter>
+		<filter name="'armor_state_4'">
+			<check value="vars.var_armor_state == 4"/>
+		</filter>
+		<filter name="'armor_state_5'">
+			<check value="vars.var_armor_state == 5"/>
+		</filter>
+		<filter name="'armor_state_6'">
+			<check value="vars.var_armor_state == 6"/>
+		</filter>
+		<filter name="'armor_state_7'">
+			<check value="vars.var_armor_state == 7"/>
+		</filter>
+		<filter name="'filter_head_replaced'">
+			<check value="vars.var_head_replace == 1"/>
+		</filter>
+		<filter name="'filter_not_head_replaced'">
+			<check value="vars.var_head_replace == 0"/>
+		</filter>
+		<filter name="'filter_body_replaced'">
+			<check value="vars.var_body_replace == 1"/>
+		</filter>
+		<filter name="'filter_not_body_replaced'">
+			<check value="vars.var_body_replace == 0"/>
+		</filter>
+		<filter name="'filter_hands_replaced'">
+			<check value="vars.var_hands_replace == 1"/>
+		</filter>
+		<filter name="'filter_not_hands_replaced'">
+			<check value="vars.var_hands_replace == 0"/>
+		</filter>
+		<filter name="'filter_vest_replaced'">
+			<check value="vars.var_vest_replace == 1"/>
+		</filter>
+		<filter name="'filter_not_vest_replaced'">
+			<check value="vars.var_vest_replace == 0"/>
+		</filter>
+		<filter name="'filter_armor_replaced'">
+			<check value="vars.var_armor_replace == 1"/>
+		</filter>
+		<filter name="'filter_not_armor_replaced'">
+			<check value="vars.var_armor_replace == 0"/>
+		</filter>
+		<filter name="'is_dallas'">
+			<check value="(dest_unit:parent() or dest_unit):base():character_name() == 'russian'"/>
+		</filter>
+		<filter name="'is_wolf'">
+			<check value="(dest_unit:parent() or dest_unit):base():character_name() == 'german'"/>
+		</filter>
+		<filter name="'is_chains'">
+			<check value="(dest_unit:parent() or dest_unit):base():character_name() == 'spanish'"/>
+		</filter>
+		<filter name="'is_hoxton'">
+			<check value="(dest_unit:parent() or dest_unit):base():character_name() == 'american'"/>
+		</filter>
+		<filter name="'is_jowi'">
+			<check value="(dest_unit:parent() or dest_unit):base():character_name() == 'jowi'"/>
+		</filter>
+		<filter name="'is_old_hoxton'">
+			<check value="(dest_unit:parent() or dest_unit):base():character_name() == 'old_hoxton'"/>
+		</filter>
+		<filter name="'is_dragan'">
+			<check value="(dest_unit:parent() or dest_unit):base():character_name() == 'dragan'"/>
+		</filter>
+		<filter name="'is_jacket'">
+			<check value="(dest_unit:parent() or dest_unit):base():character_name() == 'jacket'"/>
+		</filter>
+		<filter name="'is_sokol'">
+			<check value="(dest_unit:parent() or dest_unit):base():character_name() == 'sokol'"/>
+		</filter>
+		<filter name="'is_dragon'">
+			<check value="(dest_unit:parent() or dest_unit):base():character_name() == 'dragon'"/>
+		</filter>
+		<filter name="'is_bodhi'">
+			<check value="(dest_unit:parent() or dest_unit):base():character_name() == 'bodhi'"/>
+		</filter>
+		<filter name="'is_jimmy'">
+			<check value="(dest_unit:parent() or dest_unit):base():character_name() == 'jimmy'"/>
+		</filter>
+		<sequence editable_state="false" name="'int_seq_hide_all'" triggable="false">
+			<object enabled="false" name="'g_body'"/>
+			<object enabled="false" name="'g_hands'"/>
+			<object enabled="false" name="'g_head_chains'"/>
+			<object enabled="false" name="'g_head_dragan'"/>
+			<object enabled="false" name="'g_head_dallas'"/>
+			<object enabled="false" name="'g_head_hoxton'"/>
+			<object enabled="false" name="'g_head_old_hoxton'"/>
+			<object enabled="false" name="'g_head_john_wick'"/>
+			<object enabled="false" name="'g_head_wolf'"/>
+			<object enabled="false" name="'g_head_sokol'"/>
+			<object enabled="false" name="'g_sokol_mask_on'"/>
+			<object enabled="false" name="'g_sokol_mask_off'"/>
+			<object enabled="false" name="'g_sokol_hair'"/>
+			<object enabled="false" name="'g_head_jacket'"/>
+			<object enabled="false" name="'g_body_jacket'"/>
+			<object enabled="false" name="'g_head_jiro'"/>
+			<object enabled="false" name="'g_body_jiro'"/>
+			<object enabled="false" name="'g_body_bodhi'"/>
+			<object enabled="false" name="'g_head_bodhi'"/>
+			<object enabled="false" name="'g_head_jimmy'"/>
+			<object enabled="false" name="'g_body_jimmy'"/>
+			<object enabled="false" name="'g_jimmy_mask_on'"/>
+			<object enabled="false" name="'g_jimmy_mask_off'"/>
+			<object enabled="false" name="'g_vest_small'"/>
+			<object enabled="false" name="'g_vest_body'"/>
+			<object enabled="false" name="'g_vest_shoulder'"/>
+			<object enabled="false" name="'g_vest_neck'"/>
+			<object enabled="false" name="'g_vest_thies'"/>
+			<object enabled="false" name="'g_vest_leg_arm'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_hide_body'" triggable="false">
+			<object enabled="false" name="'g_body'"/>
+			<object enabled="false" name="'g_body_jacket'"/>
+			<object enabled="false" name="'g_body_jiro'"/>
+			<object enabled="false" name="'g_body_bodhi'"/>
+			<object enabled="false" name="'g_body_jimmy'"/>
+		</sequence>
+		<sequence editable_state="true" name="'var_mtr_chains'" triggable="true">
+			<run_sequence name="'int_seq_hide_all'"/>
+			<material_config name="vars.var_material_config" synchronous="true"/>
+			<object enabled="true" filter="'filter_not_body_replaced'" name="'g_body'"/>
+			<object enabled="true" filter="'filter_not_hands_replaced'" name="'g_hands'"/>
+			<object enabled="true" filter="'filter_not_head_replaced'" name="'g_head_chains'"/>
+		</sequence>
+		<sequence editable_state="true" name="'var_mtr_dallas'" triggable="true">
+			<run_sequence name="'int_seq_hide_all'"/>
+			<material_config name="vars.var_material_config" synchronous="true"/>
+			<object enabled="true" filter="'filter_not_body_replaced'" name="'g_body'"/>
+			<object enabled="true" filter="'filter_not_hands_replaced'" name="'g_hands'"/>
+			<object enabled="true" filter="'filter_not_head_replaced'" name="'g_head_dallas'"/>
+		</sequence>
+		<sequence editable_state="true" name="'var_mtr_hoxton'" triggable="true">
+			<run_sequence name="'int_seq_hide_all'"/>
+			<material_config name="vars.var_material_config" synchronous="true"/>
+			<object enabled="true" filter="'filter_not_body_replaced'" name="'g_body'"/>
+			<object enabled="true" filter="'filter_not_hands_replaced'" name="'g_hands'"/>
+			<object enabled="true" filter="'filter_not_head_replaced'" name="'g_head_hoxton'"/>
+		</sequence>
+		<sequence editable_state="true" name="'var_mtr_dragan'" triggable="true">
+			<run_sequence name="'int_seq_hide_all'"/>
+			<material_config name="vars.var_material_config" synchronous="true"/>
+			<object enabled="true" filter="'filter_not_body_replaced'" name="'g_body'"/>
+			<object enabled="true" filter="'filter_not_hands_replaced'" name="'g_hands'"/>
+			<object enabled="true" filter="'filter_not_head_replaced'" name="'g_head_dragan'"/>
+		</sequence>
+		<sequence editable_state="true" name="'var_mtr_jacket'" triggable="true">
+			<run_sequence name="'int_seq_hide_all'"/>
+			<material_config name="vars.var_material_config" synchronous="true"/>
+			<object enabled="true" filter="'filter_not_body_replaced'" name="'g_body_jacket'"/>
+			<object enabled="true" filter="'filter_not_head_replaced'" name="'g_head_jacket'"/>
+		</sequence>
+		<sequence editable_state="true" name="'var_mtr_old_hoxton'" triggable="true">
+			<run_sequence name="'int_seq_hide_all'"/>
+			<material_config name="vars.var_material_config" synchronous="true"/>
+			<object enabled="true" filter="'filter_not_body_replaced'" name="'g_body'"/>
+			<object enabled="true" filter="'filter_not_hands_replaced'" name="'g_hands'"/>
+			<object enabled="true" filter="'filter_not_head_replaced'" name="'g_head_old_hoxton'"/>
+		</sequence>
+		<sequence editable_state="true" name="'var_mtr_wolf'" triggable="true">
+			<run_sequence name="'int_seq_hide_all'"/>
+			<material_config name="vars.var_material_config" synchronous="true"/>
+			<object enabled="true" filter="'filter_not_body_replaced'" name="'g_body'"/>
+			<object enabled="true" filter="'filter_not_hands_replaced'" name="'g_hands'"/>
+			<object enabled="true" filter="'filter_not_head_replaced'" name="'g_head_wolf'"/>
+		</sequence>
+		<sequence editable_state="true" name="'var_mtr_john_wick'" triggable="true">
+			<run_sequence name="'int_seq_hide_all'"/>
+			<material_config name="vars.var_material_config" synchronous="true"/>
+			<object enabled="true" filter="'filter_not_body_replaced'" name="'g_body'"/>
+			<object enabled="true" filter="'filter_not_hands_replaced'" name="'g_hands'"/>
+			<object enabled="true" filter="'filter_not_head_replaced'" name="'g_head_john_wick'"/>
+		</sequence>
+		<sequence editable_state="true" name="'var_mtr_sokol'" triggable="true">
+			<run_sequence name="'int_seq_hide_all'"/>
+			<material_config name="vars.var_material_config" synchronous="true"/>
+			<object enabled="true" filter="'filter_not_body_replaced'" name="'g_body'"/>
+			<object enabled="true" filter="'filter_not_hands_replaced'" name="'g_hands'"/>
+			<object enabled="true" filter="'filter_not_head_replaced'" name="'g_head_sokol'"/>
+			<object enabled="true" filter="'filter_not_head_replaced'" name="'g_sokol_mask_off'"/>
+			<object enabled="true" filter="'filter_not_head_replaced'" name="'g_sokol_hair'"/>
+		</sequence>
+		<sequence editable_state="true" name="'var_mtr_jiro'" triggable="true">
+			<run_sequence name="'int_seq_hide_all'"/>
+			<material_config name="vars.var_material_config" synchronous="true"/>
+			<object enabled="true" filter="'filter_not_body_replaced'" name="'g_body_jiro'"/>
+			<object enabled="true" filter="'filter_not_hands_replaced'" name="'g_hands'"/>
+			<object enabled="true" filter="'filter_not_head_replaced'" name="'g_head_jiro'"/>
+		</sequence>
+		<sequence editable_state="true" name="'var_mtr_bodhi'" triggable="true">
+			<run_sequence name="'int_seq_hide_all'"/>
+			<material_config name="vars.var_material_config" synchronous="true"/>
+			<object enabled="true" filter="'filter_not_body_replaced'" name="'g_body_bodhi'"/>
+			<object enabled="true" filter="'filter_not_head_replaced'" name="'g_head_bodhi'"/>
+		</sequence>
+		<sequence name="'mask_on_sokol'">
+			<object enabled="true" filter="'filter_not_head_replaced'" name="'g_sokol_mask_on'"/>
+			<object enabled="false" filter="'filter_not_head_replaced'" name="'g_sokol_mask_off'"/>
+			<object enabled="false" filter="'filter_not_head_replaced'" name="'g_sokol_hair'"/>
+		</sequence>
+		<sequence name="'mask_off_sokol'">
+			<object enabled="false" filter="'filter_not_head_replaced'" name="'g_sokol_mask_on'"/>
+			<object enabled="true" filter="'filter_not_head_replaced'" name="'g_sokol_mask_off'"/>
+			<object enabled="true" filter="'filter_not_head_replaced'" name="'g_sokol_hair'"/>
+		</sequence>
+		<sequence name="'mask_on_jimmy'">
+			<object enabled="true" filter="'filter_not_head_replaced'" name="'g_jimmy_mask_on'"/>
+			<object enabled="false" filter="'filter_not_head_replaced'" name="'g_jimmy_mask_off'"/>
+		</sequence>
+		<sequence name="'mask_off_jimmy'">
+			<object enabled="false" filter="'filter_not_head_replaced'" name="'g_jimmy_mask_on'"/>
+			<object enabled="true" filter="'filter_not_head_replaced'" name="'g_jimmy_mask_off'"/>
+		</sequence>
+		<sequence editable_state="true" name="'var_mtr_jimmy'" triggable="true">
+			<run_sequence name="'int_seq_hide_all'"/>
+			<material_config name="vars.var_material_config" synchronous="true"/>
+			<object enabled="true" filter="'filter_not_body_replaced'" name="'g_body_jimmy'"/>
+			<object enabled="true" filter="'filter_not_head_replaced'" name="'g_head_jimmy'"/>
+			<object enabled="true" filter="'filter_not_head_replaced'" name="'g_jimmy_mask_off'"/>
+			<object enabled="true" filter="'filter_not_head_replaced'" name="'g_jimmy_mask_on'"/>
+		</sequence>
+		<sequence editable_state="true" name="'var_model_01'" triggable="true">
+			<object enabled="false" filter="'filter_not_vest_replaced'" name="'g_vest_small'"/>
+			<object enabled="false" filter="'filter_not_armor_replaced'" name="'g_vest_body'"/>
+			<object enabled="false" filter="'filter_not_armor_replaced'" name="'g_vest_shoulder'"/>
+			<object enabled="false" filter="'filter_not_armor_replaced'" name="'g_vest_neck'"/>
+			<object enabled="false" filter="'filter_not_armor_replaced'" name="'g_vest_thies'"/>
+			<object enabled="false" filter="'filter_not_armor_replaced'" name="'g_vest_leg_arm'"/>
+			<set_variables var_armor_state="1"/>
+		</sequence>
+		<sequence editable_state="true" name="'var_model_02'" triggable="true">
+			<object enabled="true" filter="'filter_not_vest_replaced'" name="'g_vest_small'"/>
+			<object enabled="false" filter="'filter_not_armor_replaced'" name="'g_vest_body'"/>
+			<object enabled="false" filter="'filter_not_armor_replaced'" name="'g_vest_shoulder'"/>
+			<object enabled="false" filter="'filter_not_armor_replaced'" name="'g_vest_neck'"/>
+			<object enabled="false" filter="'filter_not_armor_replaced'" name="'g_vest_thies'"/>
+			<object enabled="false" filter="'filter_not_armor_replaced'" name="'g_vest_leg_arm'"/>
+			<set_variables var_armor_state="2"/>
+		</sequence>
+		<sequence editable_state="true" name="'var_model_03'" triggable="true">
+			<object enabled="false" filter="'filter_not_vest_replaced'" name="'g_vest_small'"/>
+			<object enabled="true" filter="'filter_not_armor_replaced'" name="'g_vest_body'"/>
+			<object enabled="false" filter="'filter_not_armor_replaced'" name="'g_vest_shoulder'"/>
+			<object enabled="false" filter="'filter_not_armor_replaced'" name="'g_vest_neck'"/>
+			<object enabled="false" filter="'filter_not_armor_replaced'" name="'g_vest_thies'"/>
+			<object enabled="false" filter="'filter_not_armor_replaced'" name="'g_vest_leg_arm'"/>
+			<set_variables var_armor_state="3"/>
+		</sequence>
+		<sequence editable_state="true" name="'var_model_04'" triggable="true">
+			<object enabled="false" filter="'filter_not_vest_replaced'" name="'g_vest_small'"/>
+			<object enabled="true" filter="'filter_not_armor_replaced'" name="'g_vest_body'"/>
+			<object enabled="false" filter="'filter_not_armor_replaced'" name="'g_vest_shoulder'"/>
+			<object enabled="true" filter="'filter_not_armor_replaced'" name="'g_vest_neck'"/>
+			<object enabled="false" filter="'filter_not_armor_replaced'" name="'g_vest_thies'"/>
+			<object enabled="false" filter="'filter_not_armor_replaced'" name="'g_vest_leg_arm'"/>
+			<set_variables var_armor_state="4"/>
+		</sequence>
+		<sequence editable_state="true" name="'var_model_05'" triggable="true">
+			<object enabled="false" filter="'filter_not_vest_replaced'" name="'g_vest_small'"/>
+			<object enabled="true" filter="'filter_not_armor_replaced'" name="'g_vest_body'"/>
+			<object enabled="true" filter="'filter_not_armor_replaced'" name="'g_vest_shoulder'"/>
+			<object enabled="true" filter="'filter_not_armor_replaced'" name="'g_vest_neck'"/>
+			<object enabled="false" filter="'filter_not_armor_replaced'" name="'g_vest_thies'"/>
+			<object enabled="false" filter="'filter_not_armor_replaced'" name="'g_vest_leg_arm'"/>
+			<set_variables var_armor_state="5"/>
+		</sequence>
+		<sequence editable_state="true" name="'var_model_06'" triggable="true">
+			<object enabled="false" filter="'filter_not_vest_replaced'" name="'g_vest_small'"/>
+			<object enabled="true" filter="'filter_not_armor_replaced'" name="'g_vest_body'"/>
+			<object enabled="true" filter="'filter_not_armor_replaced'" name="'g_vest_shoulder'"/>
+			<object enabled="true" filter="'filter_not_armor_replaced'" name="'g_vest_neck'"/>
+			<object enabled="true" filter="'filter_not_armor_replaced'" name="'g_vest_thies'"/>
+			<object enabled="false" filter="'filter_not_armor_replaced'" name="'g_vest_leg_arm'"/>
+			<set_variables var_armor_state="6"/>
+		</sequence>
+		<sequence editable_state="true" name="'var_model_07'" triggable="true">
+			<object enabled="false" filter="'filter_not_vest_replaced'" name="'g_vest_small'"/>
+			<object enabled="true" filter="'filter_not_armor_replaced'" name="'g_vest_body'"/>
+			<object enabled="true" filter="'filter_not_armor_replaced'" name="'g_vest_shoulder'"/>
+			<object enabled="true" filter="'filter_not_armor_replaced'" name="'g_vest_neck'"/>
+			<object enabled="true" filter="'filter_not_armor_replaced'" name="'g_vest_thies'"/>
+			<object enabled="true" filter="'filter_not_armor_replaced'" name="'g_vest_leg_arm'"/>
+			<set_variables var_armor_state="7"/>
+		</sequence>
+		<sequence editable_state="true" name="'minigame_win'" triggable="true">
+			<function extension="'interaction'" function="'play_minigame_vo'" param1="'win'"/>
+		</sequence>
+		<sequence editable_state="true" name="'minigame_lose'" triggable="true">
+			<function extension="'interaction'" function="'play_minigame_vo'" param1="'lose'"/>
+		</sequence>
+	</unit>
+</table>

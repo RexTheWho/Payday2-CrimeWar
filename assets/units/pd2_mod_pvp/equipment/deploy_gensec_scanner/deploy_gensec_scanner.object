@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<dynamic_object>
+	<diesel materials="units/pd2_mod_pvp/equipment/deploy_gensec_scanner/deploy_gensec_scanner" orientation_object="rp_root" />
+    <bodies>
+        <body name="static_body" template="animated" enabled="true" >
+            <object name="a_rotate"/>
+        </body>
+        <body name="editor_body" template="editor" enabled="true" >
+            <object name="rp_root"/>
+            <object name="g_base" enabled="true" collision_type="box" />
+        </body>
+    </bodies>
+	<decal_surfaces default_material="metal" static="false"/>
+    <graphics>
+		<graphic_group name="group" enabled="true" culling_object="co_culling">
+			<object enabled="true" name="g_base" shadow_caster="true"/>
+			<object enabled="true" name="g_dish" shadow_caster="true"/>
+		</graphic_group>
+    </graphics>
+	<lights>
+		<!--Leave Off-->
+		<light
+			name="ls_light"
+			shadow_projection="false"
+			multiplier="identity"
+			editable="true"
+			enabled="false"
+			projection="false"
+			type="cube_projection|omni|specular"
+			far_range="0"
+			texture="no/texture/thx"
+		/>
+	</lights>
+	<sounds>
+		<default_soundsource source="snd_main"/>
+	</sounds>
+</dynamic_object>

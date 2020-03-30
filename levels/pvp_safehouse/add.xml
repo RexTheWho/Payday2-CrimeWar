@@ -1,0 +1,191 @@
+<table directory="assets">
+	<add unload_on_restart="true">
+	
+		<!-- WIP ASSETS -->
+		<!-- WIP ASSETS -->
+		<!-- WIP ASSETS -->
+		
+		
+		<!-- <unit				path="units/pd2_mod_pvp/characters/fps_mover/fps_mover" unload="true"/> -->
+		<!-- <object				path="units/pd2_mod_pvp/characters/fps_mover/fps_mover" unload="true"/> -->
+		<!-- <model				path="units/pd2_mod_pvp/characters/fps_mover/fps_mover" unload="true"/> -->
+		<!-- <material_config	path="units/pd2_mod_pvp/characters/fps_mover/fps_mover" unload="true"/> -->
+		
+		<!-- <unit				path="units/pd2_mod_pvp/characters/npc_criminals_suit_1/npc_criminals_suit_1" unload="true"/> -->
+		<!-- <object				path="units/pd2_mod_pvp/characters/npc_criminals_suit_1/npc_criminals_suit_1" unload="true"/> -->
+		<!-- <model				path="units/pd2_mod_pvp/characters/npc_criminals_suit_1/npc_criminals_suit_1" unload="true"/> -->
+		<!-- <sequence_manager	path="units/pd2_mod_pvp/characters/npc_criminals_suit_1/npc_criminals_suit_1" unload="true"/> -->
+		<!-- <unit	load="true"	path="units/pd2_mod_pvp/characters/npc_criminals_suit_1/npc_criminals_suit_1_husk" unload="true"/> -->
+		<!-- <unit	load="true"	path="units/pd2_mod_pvp/characters/npc_criminals_suit_1/player_criminals_suit_1_husk" unload="true"/> -->
+		
+		<!-- <animation_state_machine	load="true"	path="units/pd2_mod_pvp/characters/fps_mover/fps_mover" unload="true"/> -->
+		<!-- <animation_def				load="true"	path="units/pd2_mod_pvp/characters/fps_mover/fps_mover" unload="true"/> -->
+		<!-- <animation_states			load="true"	path="units/pd2_mod_pvp/characters/fps_mover/fps_mover_std" unload="true"/> -->
+		<!-- <animation_subset			load="true"	path="units/pd2_mod_pvp/characters/fps_mover/fps_mover_std" unload="true"/> -->
+		
+		<!-- <animation_def				path="anims/units/fps_mover/fps_mover" unload="true"/> -->
+		<!-- <animation_subset			path="anims/units/fps_mover/fps_mover_std" unload="true"/> -->
+		<!-- <animation_state_machine	path="anims/units/fps_mover/fps_mover" unload="true"/> -->
+		<!-- <animation_states			path="anims/units/fps_mover/fps_mover_std" unload="true"/> -->
+		
+		
+		<!-- FINAL ASSETS -->
+		<!-- FINAL ASSETS -->
+		<!-- FINAL ASSETS -->
+		
+		<unit				path="units/pd2_mod_pvp/equipment/deploy_gensec_scanner/deploy_gensec_scanner" unload="true"/>
+		<object				path="units/pd2_mod_pvp/equipment/deploy_gensec_scanner/deploy_gensec_scanner" unload="true"/>
+		<model				path="units/pd2_mod_pvp/equipment/deploy_gensec_scanner/deploy_gensec_scanner" unload="true"/>
+		<material_config	path="units/pd2_mod_pvp/equipment/deploy_gensec_scanner/deploy_gensec_scanner" unload="true"/>
+		<texture			path="units/pd2_mod_pvp/equipment/deploy_gensec_scanner/deploy_gensec_scanner_df" unload="true"/>
+		<texture			path="units/pd2_mod_pvp/equipment/deploy_gensec_scanner/deploy_gensec_scanner_nm" unload="true"/>
+		
+		
+		<unit				path="units/pd2_mod_pvp/architecture/safehouse/safehouse" unload="true"/>
+		<object				path="units/pd2_mod_pvp/architecture/safehouse/safehouse" unload="true"/>
+		<model				path="units/pd2_mod_pvp/architecture/safehouse/safehouse" unload="true"/>
+		<material_config	path="units/pd2_mod_pvp/architecture/safehouse/safehouse" unload="true"/>
+	
+		<unit				path="units/pd2_mod_pvp/props/prop_team_marker/prop_team_marker" unload="true"/>
+		<object				path="units/pd2_mod_pvp/props/prop_team_marker/prop_team_marker" unload="true"/>
+		<model				path="units/pd2_mod_pvp/props/prop_team_marker/prop_team_marker" unload="true"/>
+		<material_config	path="units/pd2_mod_pvp/props/prop_team_marker/prop_team_marker_crim" unload="true"/>
+		<material_config	path="units/pd2_mod_pvp/props/prop_team_marker/prop_team_marker_swat" unload="true"/>
+		<texture			path="units/pd2_mod_pvp/props/prop_team_marker/area_indicator_crim_df" unload="true"/>
+		<texture			path="units/pd2_mod_pvp/props/prop_team_marker/area_indicator_swat_df" unload="true"/>
+		<texture			path="units/pd2_mod_pvp/props/prop_team_marker/edge_crim_df" unload="true"/>
+		<texture			path="units/pd2_mod_pvp/props/prop_team_marker/edge_swat_df" unload="true"/>
+		<texture			path="units/pd2_mod_pvp/props/prop_team_marker/icon_crim_df" unload="true"/>
+		<texture			path="units/pd2_mod_pvp/props/prop_team_marker/icon_swat_df" unload="true"/>
+		
+		<sequence_manager	path="units/pd2_mod_pvp/props/prop_team_marker/prop_team_marker" unload="true"/>
+		<unit				path="units/pd2_mod_pvp/props/prop_help_screen/prop_help_screen" unload="true"/>
+		<object				path="units/pd2_mod_pvp/props/prop_help_screen/prop_help_screen" unload="true"/>
+		<model				path="units/pd2_mod_pvp/props/prop_help_screen/prop_help_screen" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_pvp/props/prop_help_screen/prop_help_screen" unload="true"/>
+		<material_config	path="units/pd2_mod_pvp/props/prop_help_screen/prop_help_screen" unload="true"/>
+		<texture			path="units/pd2_mod_pvp/props/prop_help_screen/prop_help_screen_01_df" unload="true"/>
+		
+		<material_config	path="units/pd2_mod_pvp/props/prop_weapon_rack/prop_weapon_rack" unload="true"/>
+		<unit				path="units/pd2_mod_pvp/props/prop_weapon_rack/prop_weapon_rack" unload="true"/>
+		<object				path="units/pd2_mod_pvp/props/prop_weapon_rack/prop_weapon_rack" unload="true"/>
+		<model				path="units/pd2_mod_pvp/props/prop_weapon_rack/prop_weapon_rack" unload="true"/>
+		
+		<material_config	path="units/pd2_mod_pvp/props/prop_long_lamp/prop_long_lamp" unload="true"/>
+		<unit				path="units/pd2_mod_pvp/props/prop_long_lamp/prop_long_lamp" unload="true"/>
+		<object				path="units/pd2_mod_pvp/props/prop_long_lamp/prop_long_lamp" unload="true"/>
+		<model				path="units/pd2_mod_pvp/props/prop_long_lamp/prop_long_lamp" unload="true"/>
+		<effect	load="true"	path="units/pd2_mod_pvp/props/prop_long_lamp/prop_long_lamp_blue_effect" unload="true"/>
+		
+		<unit				path="units/pd2_mod_pvp/equipment/wpn_weapon_pickup/wpn_weapon_pickup_static" unload="true"/>
+		<object				path="units/pd2_mod_pvp/equipment/wpn_weapon_pickup/wpn_weapon_pickup_static" unload="true"/>
+		<model				path="units/pd2_mod_pvp/equipment/wpn_weapon_pickup/wpn_weapon_pickup_static" unload="true"/>
+		
+		<sequence_manager	path="units/pd2_mod_pvp/props/prop_weapon_selection/prop_weapon_selection" unload="true"/>
+		<unit				path="units/pd2_mod_pvp/props/prop_weapon_selection/prop_weapon_amcar/prop_weapon_amcar" unload="true"/>
+		<object				path="units/pd2_mod_pvp/props/prop_weapon_selection/prop_weapon_amcar/prop_weapon_amcar" unload="true"/>
+		<model				path="units/pd2_mod_pvp/props/prop_weapon_selection/prop_weapon_amcar/prop_weapon_amcar" unload="true"/>
+		<material_config	path="units/pd2_mod_pvp/props/prop_weapon_selection/prop_weapon_amcar/prop_weapon_amcar" unload="true"/>
+		<unit				path="units/pd2_mod_pvp/props/prop_weapon_selection/prop_weapon_g36/prop_weapon_g36" unload="true"/>
+		<object				path="units/pd2_mod_pvp/props/prop_weapon_selection/prop_weapon_g36/prop_weapon_g36" unload="true"/>
+		<model				path="units/pd2_mod_pvp/props/prop_weapon_selection/prop_weapon_g36/prop_weapon_g36" unload="true"/>
+		<material_config	path="units/pd2_mod_pvp/props/prop_weapon_selection/prop_weapon_g36/prop_weapon_g36" unload="true"/>
+	</add>
+	
+	<add path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" type="unit">
+		<object path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" unload="true"/>
+		<sequence_manager path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" unload="true"/>
+		<unit path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_chill/props/chl_prop_timer_small/chl_prop_timer_small" type="unit">
+		<font path="fonts/font_digital" unload="true"/>
+		<material_config path="units/pd2_dlc_chill/props/chl_prop_timer_small/chl_prop_timer_small" unload="true"/>
+		<object path="units/pd2_dlc_chill/props/chl_prop_timer_small/chl_prop_timer_small" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_chill/props/chl_prop_timer_small/chl_prop_timer_small" unload="true"/>
+		<unit path="units/pd2_dlc_chill/props/chl_prop_timer_small/chl_prop_timer_small" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_chill/vehicles/str_vehicle_van/chl_vehicle_van_player" type="unit">
+		<material_config path="units/pd2_dlc_chill/vehicles/str_vehicle_van/chl_anim_vehicle_van_player" unload="true"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/window/storefront_window_small" unload="true"/>
+		<object path="units/pd2_dlc_chill/vehicles/str_vehicle_van/chl_vehicle_van_player" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_chill/vehicles/str_vehicle_van/chl_vehicle_van_player" unload="true"/>
+		<unit path="units/pd2_dlc_chill/vehicles/str_vehicle_van/chl_vehicle_van_player" unload="true"/>
+	</add>
+	<add path="units/payday2/architecture/ind/ind_ext_rollupgaragedoor_clean_a" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_garagedoor01_clean" unload="true"/>
+		<object path="units/payday2/architecture/ind/ind_ext_rollupgaragedoor_clean_a" unload="true"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_rollupgaragedoor_clean_a" unload="true"/>
+	</add>
+	<add path="units/payday2/vehicles/str_vehicle_swat_van/str_vehicle_swat_van" type="unit">
+		<unit path="units/payday2/vehicles/str_vehicle_swat_van/str_vehicle_swat_van" unload="true"/>
+		<object path="units/payday2/vehicles/str_vehicle_swat_van/str_vehicle_swat_van" unload="true"/>
+		<material_config path="units/payday2/vehicles/str_vehicle_swat_van/str_vehicle_swat_van" unload="true"/>
+		<sequence_manager path="units/payday2/vehicles/str_vehicle_swat_van/str_vehicle_swat_van" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/flares/scene_flare_small_01" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/spotlight/scene_spotlight_01" unload="true"/>
+		<unit path="units/payday2/vehicles/gen_vehicle_turret/gen_vehicle_turret" unload="true"/>
+		<object path="units/payday2/vehicles/gen_vehicle_turret/gen_vehicle_turret" unload="true"/>
+		<material_config path="units/payday2/vehicles/gen_vehicle_turret/gen_vehicle_turret" unload="true"/>
+		<sequence_manager path="units/payday2/vehicles/gen_vehicle_turret/gen_vehicle_turret" unload="true"/>
+		<unit path="units/payday2/vehicles/gen_vehicle_turret/spawn_turret_debris" unload="true"/>
+		<object path="units/payday2/vehicles/gen_vehicle_turret/spawn_turret_debris" unload="true"/>
+		<unit path="units/payday2/vehicles/gen_vehicle_turret/spawn_shield_front" unload="true"/>
+		<object path="units/payday2/vehicles/gen_vehicle_turret/spawn_shield_front" unload="true"/>
+		<effect load="true" path="effects/particles/weapons/flashlight/flashlight" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sentry_aftersmoke" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sentry_damage_smoke" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sentry_damage_smoke_med" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sentry_damage_smoke_large" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sparks/sparks_loop" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/weapons/big_762_auto" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/weapons/parts/combo_light_all" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/weapons/parts/distance_halo_big" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/weapons/shells/shell_556_lmg" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/weapons/shells/shell_link" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sentry_explosion" unload="true"/>
+		<unit path="units/payday2/vehicles/gen_vehicle_turret/spawn_shield_upper" unload="true"/>
+		<object path="units/payday2/vehicles/gen_vehicle_turret/spawn_shield_upper" unload="true"/>
+		<physic_effect path="physic_effects/push_sphere" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x3m" unload="true"/>
+	</add>
+	<add path="units/payday2/props/are_int_double_door/are_int_double_door" type="unit">
+		<unit path="units/payday2/props/are_int_double_door/are_int_double_door" unload="true"/>
+		<object path="units/payday2/props/are_int_double_door/are_int_double_door" unload="true"/>
+		<material_config path="units/payday2/props/are_int_double_door/are_int_double_door" unload="true"/>
+		<sequence_manager path="units/payday2/props/are_int_double_door/are_int_double_door" unload="true"/>
+		<unit path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+		<object path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+		<material_config path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+		<effect load="true" path="effects/payday2/environment/drill" unload="true"/>
+		<effect load="true" path="effects/payday2/environment/parts/drill_sparks_particles" unload="true"/>
+		<effect load="true" path="effects/payday2/environment/parts/drill_sparks" unload="true"/>
+		<effect load="true" path="effects/payday2/environment/drill_jammed" unload="true"/>
+		<unit path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<object path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<effect load="true" path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/shapecharger_explosion" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/smoke_explosion/smoke" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/smoke_explosion/fire_smoke_mid" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sparks/sparks" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/smoke_explosion/dark_smoke_big" unload="true"/>
+		<gui path="guis/timer_gui" unload="true"/>
+	</add>
+	<add path="core/units/light_omni/light_omni" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="core/units/light_omni/light_omni" unload="true"/>
+		<unit path="core/units/light_omni/light_omni" unload="true"/>
+	</add>
+	<add path="units/lights/light_spot_shadow_projection_01/light_spot_shadow_projection_01" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/lights/light_spot_shadow_projection_01/light_spot_shadow_projection_01" unload="true"/>
+		<unit path="units/lights/light_spot_shadow_projection_01/light_spot_shadow_projection_01" unload="true"/>
+	</add>
+</table>

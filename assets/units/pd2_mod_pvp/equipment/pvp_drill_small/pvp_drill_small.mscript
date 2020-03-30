@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<modelscript>
+    <object3d name="g_drill_icon" mode="edit">
+        <parent name="rp_gen_interactable_drill_small" />
+        <position x="0" y="-5" z="20" />
+        <rotation w="-6.12323426E-17" x="0" y="0" z="1" />
+    </object3d>
+</modelscript>

@@ -1,0 +1,74 @@
+<dynamic_object>
+    <diesel orientation_object="rp_com_int_parking_garage_door" materials="units/payday2/architecture/com_int_parking_garage_pox/com_int_parking_garage_door" />
+    <sequence_manager file="units/payday2/architecture/com_int_parking_garage_pox/com_int_parking_garage_door" />
+	<bodies>
+		<body name="static_door_l_01" template="animated" enabled="true">
+			<object name="jt_door_l_01" />
+			<object name="c_box_door_l_01" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="static_door_l_02" template="animated" enabled="true">
+			<object name="jt_door_l_02" />
+			<object name="c_box_door_l_02" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="static_door_l_03" template="animated" enabled="true">
+			<object name="jt_door_l_03" />
+			<object name="c_box_door_l_03" collision_type="box" padding="-2.5"/>
+		</body>	
+		<body name="static_door_l_04" template="animated" enabled="true">
+			<object name="jt_door_l_04" />
+			<object name="c_box_door_l_04" collision_type="box" padding="-2.5"/>
+		</body>	
+		<body name="static_door_r_01" template="animated" enabled="true">
+			<object name="jt_door_r_01" />
+			<object name="c_box_door_r_01" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="static_door_r_02" template="animated" enabled="true">
+			<object name="jt_door_r_02" />
+			<object name="c_box_door_r_02" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="static_door_r_03" template="animated" enabled="true">
+			<object name="jt_door_r_03" />
+			<object name="c_box_door_r_03" collision_type="box" padding="-2.5"/>
+		</body>	
+		<body name="static_door_r_04" template="animated" enabled="true">
+			<object name="jt_door_r_04" />
+			<object name="c_box_door_r_04" collision_type="box" padding="-2.5"/>
+		</body>	
+	</bodies>
+	
+	<animations>
+		<animation_group name="garage_door" enabled="false">
+			<object name="jt_door_l_01" />
+			<object name="jt_door_l_02" />
+			<object name="jt_door_l_03" />
+			<object name="jt_door_l_04" />
+			<object name="jt_door_r_01" />
+			<object name="jt_door_r_02" />
+			<object name="jt_door_r_03" />
+			<object name="jt_door_r_04" />
+		</animation_group>
+	</animations>
+	
+    <graphics>
+		<object name="g_door_r_01" enabled="true"/>
+		<object name="g_door_r_02" enabled="true"/>
+		<object name="g_door_r_03" enabled="true"/>
+		<object name="g_door_r_04" enabled="true"/>
+		<object name="g_door_l_01" enabled="true"/>
+		<object name="g_door_l_02" enabled="true"/>
+		<object name="g_door_l_03" enabled="true"/>
+		<object name="g_door_l_04" enabled="true"/>
+		
+		<object name="s_s" 		enabled="true" shadow_caster="true"/>
+		<object name="s_l_01" 	enabled="true" shadow_caster="true"/>
+		<object name="s_l_02" 	enabled="true" shadow_caster="true"/>
+		<object name="s_l_03" 	enabled="true" shadow_caster="true"/>
+		<object name="s_l_04" 	enabled="true" shadow_caster="true"/>
+		<object name="s_r_01" 	enabled="true" shadow_caster="true"/>
+		<object name="s_r_02" 	enabled="true" shadow_caster="true"/>
+		<object name="s_r_03" 	enabled="true" shadow_caster="true"/>
+		<object name="s_r_04" 	enabled="true" shadow_caster="true"/>
+		
+		<object name="g_frame" enabled="true"/>
+    </graphics>
+</dynamic_object>

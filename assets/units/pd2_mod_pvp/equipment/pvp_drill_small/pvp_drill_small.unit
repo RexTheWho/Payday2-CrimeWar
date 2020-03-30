@@ -1,0 +1,22 @@
+<unit type="gen" slot="1">
+	<object file="units/pd2_mod_pvp/equipment/pvp_drill_small/pvp_drill_small" />
+	<network sync="spawn"/>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" 	class="UnitDamage" />
+		
+		<extension name="interaction" class="UseInteractionExt">
+			<var name="tweak_data" value="pvp_drill" />
+			<var name="_interact_object" value="int_location"/>
+		</extension>
+		
+		<extension class="DigitalGui" name="digital_gui" >
+			<var name="_gui_object" value="timer_gui" />
+			<var name="FONT_SIZE" value="140" />
+		</extension>
+		
+	</extensions>
+	<sounds>
+		<default_soundsource source="e_drill_particles"/>
+	</sounds>
+</unit>

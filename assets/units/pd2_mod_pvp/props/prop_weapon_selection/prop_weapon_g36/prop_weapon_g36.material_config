@@ -1,0 +1,28 @@
+<materials version="3">
+    <material name="base" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture		file="units/payday2/weapons/wpn_third_ass_g36_pts/body_df"/>
+        <bump_normal_texture	file="units/payday2/weapons/wpn_third_ass_g36_pts/body_nm"/>
+    </material>	
+    <material name="grip" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture		file="units/payday2/weapons/wpn_third_ass_g36_pts/grip_df"/>
+        <bump_normal_texture	file="units/payday2/weapons/wpn_third_ass_g36_pts/grip_nm"/>
+    </material>
+    <material name="barrel" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture		file="units/payday2/weapons/wpn_third_ass_g36_pts/barrel_df"/>
+        <bump_normal_texture	file="units/payday2/weapons/wpn_third_ass_g36_pts/barrel_nm"/>
+    </material>
+    <material name="stock" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture		file="units/payday2/weapons/wpn_third_ass_g36_pts/stock_df"/>
+        <bump_normal_texture	file="units/payday2/weapons/wpn_third_ass_g36_pts/stock_nm"/>
+    </material>
+    <material name="fg" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture		file="units/payday2/weapons/wpn_third_ass_g36_pts/c_df"/>
+        <bump_normal_texture	file="units/payday2/weapons/wpn_third_ass_g36_pts/c_nm"/>
+    </material>
+    <material name="contour" unique="true" version="2" render_template="generic:ALPHA_MASKED:CONTOUR:DIFFUSE_TEXTURE:OPACITY_TEXTURE">
+        <diffuse_texture	file="units/white_df"/>
+        <variable			value="0 1 0" type="vector3" name="contour_color"/>
+        <variable			value="1" type="scalar" name="contour_opacity"/>
+        <opacity_texture	file="units/transparent_op"/>
+    </material>
+</materials>

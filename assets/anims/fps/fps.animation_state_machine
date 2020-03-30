@@ -1,0 +1,470 @@
+<state_machine name="fps" timebase="frames">
+	<segment name="base"/>
+
+	<global name="mask_equip" value="0"/>
+	<global name="glasses_equip" value="0"/>
+	<global name="helmet_equip" value="0"/>
+	<global name="beard_equip" value="0"/>
+	<global name="tiara_equip" value="0"/>
+	<global name="hat_equip" value="0"/>
+
+	<global name="steelsight_weight" value="0.0"/>
+
+	<global name="melee_knife" value="0"/>
+	<global name="melee_knife2" value="0"/>
+	<global name="melee_cleaver" value="0"/>
+	<global name="melee_fist" value="0"/>
+	<global name="melee_axe" value="0"/>
+	<global name="melee_fireaxe" value="0"/>
+	<global name="melee_baseballbat" value="0"/>
+	<global name="melee_baseballbat_miami" value="0"/>
+	<global name="melee_machete" value="0"/>
+	<global name="melee_briefcase" value="0"/>
+	<global name="melee_stab" value="0"/>
+	<global name="melee_psycho" value="0"/>
+	<global name="melee_freedom" value="0"/>
+	<global name="melee_boxing" value="0"/>
+	<global name="melee_pickaxe" value="0"/>
+	<global name="melee_hockey" value="0"/>
+	<global name="melee_blunt" value="0"/>
+	<global name="melee_taser" value="0"/>
+	<global name="melee_fight" value="0"/>
+	<global name="melee_twins" value="0"/>
+	<global name="melee_ballistic" value="0"/>
+	<global name="melee_tiger" value="0"/>
+	<global name="melee_sandsteel" value="0"/>
+	<global name="melee_great" value="0"/>
+	<global name="melee_beardy" value="0"/>
+	<global name="melee_buck" value="0"/>
+	<global name="melee_cutters" value="0"/>
+	<global name="melee_boxcutter" value="0"/>
+	<global name="melee_pitchfork" value="0"/>
+	<global name="melee_nin" value="0"/>
+	
+
+	<global name="melee_wing" value="0"/>
+
+	
+
+	<global name="melee_road" value="0"/>
+	
+
+	<global name="melee_cs" value="0"/>
+
+
+	<global name="melee_brick" value="0"/>
+
+
+	<global name="melee_ostry" value="0"/>
+
+
+	<global name="melee_catch" value="0"/>
+
+
+
+	<global name="melee_agave" value="0"/>
+
+
+
+	<global name="melee_clean" value="0"/>
+
+
+	<global name="melee_happy" value="0"/>
+
+
+	<global name="melee_grip" value="0"/>
+
+	
+
+	<global name="melee_hauteur" value="0"/>
+
+
+
+	<global name="melee_fear" value="0"/>
+
+	
+	<global name="projectile_four" value="0"/>
+	<global name="projectile_jav" value="0"/>
+	
+	<global name="projectile_target" value="0"/>
+	
+	<global name="beretta92" value="0"/>
+	<global name="c45" value="0"/>
+	<global name="raging_bull" value="0"/>
+	<global name="r870_shotgun" value="0"/>
+	<global name="mossberg" value="0"/>
+	<global name="m4" value="0"/>
+	<global name="mp5" value="0"/>
+	<global name="mac11" value="0"/>
+	<global name="m14" value="0"/>
+	<global name="ak47" value="0"/>
+	<global name="m79" value="0"/>
+	<global name="glock" value="0"/>
+
+	<global name="new_m4" value="0"/>
+	<global name="glock_18c" value="0"/>
+	<global name="amcar" value="0"/>
+	<global name="m16" value="0"/>
+	<global name="olympic" value="0"/>
+	<global name="ak74" value="0"/>
+	<global name="akm" value="0"/>
+	<global name="akm_gold" value="0"/>
+	<global name="akmsu" value="0"/>
+	<global name="saiga" value="0"/>
+	<global name="ak5" value="0"/>
+	<global name="aug" value="0"/>
+	<global name="g36" value="0"/>
+	<global name="p90" value="0"/>
+	<global name="new_m14" value="0"/>
+	<global name="mp9" value="0"/>
+	<global name="deagle" value="0"/>
+	<global name="new_mp5" value="0"/>
+	<global name="colt_1911" value="0"/>
+	<global name="mac10" value="0"/>
+	<global name="r870" value="0"/>
+	<global name="glock_17" value="0"/>
+	<global name="huntsman" value="0"/>
+	<global name="b92fs" value="0"/>
+	<global name="new_raging_bull" value="0"/>
+	<global name="saw" value="0"/>
+	<global name="serbu" value="0"/>
+	<global name="usp" value="0"/>
+	<global name="g22c" value="0"/>
+
+
+	<!-- dlc 1 -->
+	<global name="m45" value="0"/>
+	<global name="s552" value="0"/>
+	<global name="ppk" value="0"/>
+
+	<!-- dlc 2 -->
+	<global name="mp7" value="0"/>
+	<global name="scar" value="0"/>
+	<global name="p226" value="0"/>
+	<!-- dlc gage lmg -->
+	<global name="hk21" value="0"/>
+	<global name="m249" value="0"/>
+	<global name="rpk" value="0"/>
+	<!-- dlc gage snp -->
+	<global name="m95" value="0"/>
+	<global name="msr" value="0"/>
+	<global name="r93" value="0"/>
+	<!-- dlc bigbank -->
+	<global name="fal" value="0"/>
+	<!-- dlc shotgun -->
+	<global name="benelli" value="0"/>
+	<global name="striker" value="0"/>
+	<global name="ksg" value="0"/>
+	<!-- dlc Hotline -->
+	<global name="scorpion" value="0"/>
+	<global name="tec9" value="0"/>
+	<global name="uzi" value="0"/>
+	<!-- dlc Assault -->
+	<global name="gre_m79" value="0"/>
+	<global name="g3" value="0"/>
+	<global name="galil" value="0"/>
+	<global name="famas" value="0"/>
+
+	<!-- Million community present -->
+	<global name="judge" value="0"/>
+
+	<!-- DLC JoWi -->
+	<global name="jowi_pistol" value="0"/>
+	<global name="x_1911_pistol" value="0"/>
+	<global name="x_b92fs_pistol" value="0"/>
+	<global name="x_deagle" value="0"/>
+
+	<!-- Million community present -->
+	<global name="spas12" value="0"/>
+
+	<!-- John Wick -->
+	<global name="g26" value="0"/>
+
+	<!-- ww2 -->
+	<global name="mg42" value="0"/>
+	<global name="c96" value="0"/>
+	<global name="sterling" value="0"/>
+	<global name="mosin" value="0"/>
+
+	<!-- 2 Million community present -->
+	<global name="tommy" value="0"/>
+
+	<!-- Clover -->
+	<global name="l85a2" value="0"/>
+
+	<!-- The Bomb -->
+	<global name="vhs" value="0"/>
+	<global name="hs2000" value="0"/>
+
+	<!-- BBQ -->
+	<global name="flamethrower_mk2" value="0"/>
+	<global name="m32" value="0"/>
+	<global name="aa12" value="0"/>
+
+	<!-- Vehicles -->
+	<global name="falcogini" value="0"/>
+
+
+
+
+
+	<global name="forklift" value="0"/>
+	<global name="muscle" value="0"/>
+	<global name="truck" value="0"/>
+
+
+	<global name="boat_rib_1" value="0"/>
+
+
+
+	<global name="blackhawk_1" value="0"/>
+
+
+
+	<global name="mower_1" value="0"/>
+
+
+
+	<global name="bike_1" value="0"/>
+
+
+	<!-- Jacket -->
+	<global name="cobray" value="0"/>
+
+	<!-- Hypetrain Overkillpack -->
+	<global name="m134" value="0"/>
+	<global name="rpg7" value="0"/>
+
+	<!-- Bonnie -->
+	<global name="b682" value="0"/>
+
+	<!-- Butcher Modpack -->
+	<global name="x_g22c" value="0"/>
+	<global name="x_g17" value="0"/>
+	<global name="x_usp" value="0"/>
+
+	<!-- Wild West -->
+	<global name="peacemaker" value="0"/>
+	<global name="winchester1874" value="0"/>
+	<global name="plainsrider" value="0"/>
+	
+	<!-- Alesso -->
+	<global name="mateba" value="0"/>
+	<global name="asval" value="0"/>
+
+	<!-- Casino -->
+	<global name="sub2000" value="0"/>
+	
+	<!-- TURTLES -->
+	<global name="wa2000" value="0"/>
+	<global name="polymer" value="0"/>
+	<global name="hunter" value="0"/>
+	
+	<!-- DRAGON -->
+	<global name="baka" value="0"/>
+	
+	<!-- HOLLY -->
+	<global name="xeno" value="0"/>
+	
+	<!-- STEEL -->
+	<global name="arblast" value="0"/>
+	<global name="frankish" value="0"/>
+	<global name="long" value="0"/>
+	<!-- cf15 -->
+	<global name="par" value="0"/>
+	<!-- RIP n BERRY -->
+	<global name="sparrow" value="0"/>
+	<global name="model70" value="0"/>
+	
+
+	<global name="m37" value="0"/>
+
+	
+
+	<global name="china" value="0"/>
+
+	
+
+	<global name="sr2" value="0"/>
+	<global name="x_sr2" value="0"/>
+
+	
+
+	<global name="pl14" value="0"/>
+
+	
+
+	<global name="x_mp5" value="0"/>
+	<global name="x_akmsu" value="0"/>
+
+	
+
+	<global name="tecci" value="0"/>
+	
+
+
+	<global name="hajk" value="0"/>
+
+
+	<global name="boot" value="0"/>
+
+
+	<global name="packrat" value="0"/>
+	<global name="schakal" value="0"/>
+	<global name="desertfox" value="0"/>
+	<global name="x_packrat" value="0"/>
+
+
+	<global name="rota" value="0"/>
+
+
+
+	<global name="arbiter" value="0"/>
+
+
+
+	<global name="contraband" value="0"/>
+	<global name="contraband_underbarrel" value="0"/>
+
+
+
+	<global name="ray" value="0"/>
+
+
+
+	<global name="tti" value="0"/>
+
+
+
+	<global name="siltstone" value="0"/>
+	<global name="flint" value="0"/>
+	<global name="coal" value="0"/>
+
+
+
+	<global name="lemming" value="0"/>
+
+
+
+	<global name="chinchilla" value="0"/>
+	<global name="x_chinchilla" value="0"/>
+
+
+	<global name="breech" value="0"/>
+	<global name="ching" value="0"/>
+	<global name="erma" value="0"/>
+
+
+	<global name="shepheard" value="0"/>
+	<global name="x_shepheard" value="0"/>
+
+
+	<global name="ecp" value="0"/>
+
+
+	<global name="shrew" value="0"/>
+	<global name="x_shrew" value="0"/>
+
+
+	<global name="basset" value="0"/>
+	<global name="x_basset" value="0"/>
+
+
+	<global name="corgi" value="0"/>
+
+
+	<global name="slap" value="0"/>
+
+
+
+
+
+
+	<global name="x_coal" 		value="0"/>
+	<global name="x_baka" 		value="0"/>
+	<global name="x_cobray" 	value="0"/>
+	<global name="x_erma" 		value="0"/>
+	<global name="x_hajk" 		value="0"/>
+	<global name="x_m45" 		value="0"/>
+	<global name="x_m1928" 		value="0"/>
+	<global name="x_mac10" 		value="0"/>
+	<global name="x_mp7" 		value="0"/>
+	<global name="x_mp9" 		value="0"/>
+	<global name="x_olympic" 	value="0"/>
+	<global name="x_p90" 		value="0"/>
+	<global name="x_polymer" 	value="0"/>
+	<global name="x_schakal" 	value="0"/>
+	<global name="x_scorpion" 	value="0"/>
+	<global name="x_sterling" 	value="0"/>
+	<global name="x_tec9" 		value="0"/>
+	<global name="x_uzi" 		value="0"/>
+	
+	<global name="x_2006m" 		value="0"/>
+	<global name="x_breech" 	value="0"/>
+	<global name="x_c96" 		value="0"/>
+	<global name="x_g18c" 		value="0"/>
+	<global name="x_hs2000" 	value="0"/>
+	<global name="x_lemming" 	value="0"/>
+	<global name="x_p226" 		value="0"/>
+	<global name="x_peacemaker"	value="0"/>
+	<global name="x_pl14" 		value="0"/>
+	<global name="x_ppk" 		value="0"/>
+	<global name="x_rage" 		value="0"/>
+	<global name="x_sparrow" 	value="0"/>
+	
+	<global name="x_judge" 	value="0"/>
+	<global name="x_rota" 	value="0"/>
+
+	
+	<global name="shuno" value="0"/>
+
+
+	<global name="system" value="0"/>
+
+
+
+	<global name="coach" value="0"/>
+
+
+
+	<global name="komodo" value="0"/>
+
+
+
+	<global name="x_legacy" value="0"/>
+
+
+
+
+	<global name="elastic" value="0"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<global name="projectile_frag" value="0"/>
+	<global name="projectile_frag_com" value="0"/>
+	<global name="projectile_molotov" value="0"/>
+
+	<global name="projectile_concussion" value="0"/>
+
+
+	<global name="projectile_dada" value="0"/>
+
+	<global name="projectile_dynamite" value="0"/>	
+
+
+	<default state="fps/spawn"/>
+	
+	<states file="anims/fps/fps_spawn"/>
+
+
+</state_machine>

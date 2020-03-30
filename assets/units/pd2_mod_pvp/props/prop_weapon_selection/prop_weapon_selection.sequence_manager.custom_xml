@@ -1,0 +1,7 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'interact'" triggable="true">
+			<interaction enabled="true" start_time="1"/>
+		</sequence>
+	</unit>
+</table>

@@ -1,0 +1,10 @@
+<unit type="prop" slot="1" >
+    <object file="units/pd2_mod_pvp/props/prop_weapon_selection/prop_weapon_g36/prop_weapon_g36" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="interaction" class="UseInteractionExt">
+			<var name="tweak_data" value="pvp_take_wep_primary" />
+		</extension>
+    </extensions>
+</unit>
