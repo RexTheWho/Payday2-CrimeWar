@@ -1,6 +1,7 @@
 Hooks:PostHook(InteractionTweakData,"init","pvp_init",function(self)
 
-
+	self.revive.interact_distance = 0
+	self.revive.timer = 999
 	self.pvp_drill = {
 		text_id =			"pvp_drill_place",
 		equipment_text_id = "pvp_drill_no_drill",
