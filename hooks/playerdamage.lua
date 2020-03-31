@@ -108,3 +108,21 @@ function PlayerDamage:damage_fall(data)
 
 	return true
 end
+
+Hooks:PostHook(PlayerDamage, "_check_bleed_out", "respawn_func", function(self, can_activate_berserker, ignore_movement_state, ...)
+    self._revives = Application:digest_value(Application:digest_value(self._revives, false) + 1, true)
+    if self:get_real_health() == 0 then
+        local effect = clone(managers.overlay_effect:presets().fade_out_in)
+        effect.fade_in = 1
+        effect.sustain = 6
+        effect.fade_out = 1
+        managers.player:set_player_state("fatal")
+        managers.overlay_effect:play_effect(effect)
+        DelayedCalls:Add("Revive", 5, function()
+            IngameFatalState:at_exit()
+            self:replenish()
+            managers.player:set_player_state("standard")
+            DelayedCalls:Remove("Revive")
+        end)
+    end
+end)
