@@ -1,7 +1,4 @@
 <table name="pvp">
-	<AddFiles directory="assets">
-		<texture force="true" load="true" path="units/pd2_mod_pvp/guis/crimewar_icon"/>
-	</AddFiles>
 	<level ai_group_type="America" briefing_dialog="" id="pvp" intro_event="" max_bags="0" player_style="generic" player_style_locked="true" team_ai_off="true">
 		<add file="levels/pvp/add.xml"/>
 		<assets/>
@@ -17,6 +14,7 @@
 			<hook file="huskplayerdamage.lua" source_file="lib/units/beings/player/huskplayerdamage"/>
 			<hook file="playerdamage.lua" source_file="lib/units/beings/player/playerdamage"/>
 			<hook file="contourext.lua" source_file="lib/units/contourext"/>
+			<hook file="playerbleedout.lua" source_file="lib/units/beings/player/states/playerbleedout"/>
 		</hooks>
 		<include directory="levels/pvp">
 			<file file="world.world" type="generic_xml"/>
@@ -168,6 +166,7 @@
 			<hook file="gamesetup.lua" source_file="lib/setups/gamesetup"/>
 			<hook file="hudmanager.lua" source_file="lib/managers/hudmanager"/>
 			<hook file="blackmarkettweakdata.lua" source_file="lib/tweak_data/blackmarkettweakdata"/>
+			<hook file="playertweakdata.lua" source_file="lib/tweak_data/playertweakdata"/>
 			<hook file="missionmanager.lua" source_file="lib/managers/missionmanager"/>
 			<hook file="elementplayerstyle.lua" source_file="lib/managers/mission/elementplayerstyle"/>
 			<hook file="huskplayermovement.lua" source_file="lib/units/beings/player/huskplayermovement"/>
@@ -177,6 +176,10 @@
 			<hook file="huskplayerdamage.lua" source_file="lib/units/beings/player/huskplayerdamage"/>
 			<hook file="playerdamage.lua" source_file="lib/units/beings/player/playerdamage"/>
 			<hook file="contourext.lua" source_file="lib/units/contourext"/>
+			<hook file="playerbleedout.lua" source_file="lib/units/beings/player/states/playerbleedout"/>
+			<hook file="ingamebleedout.lua" source_file="lib/states/ingamebleedout"/>
+			<hook file="hudplayerdowned.lua" source_file="lib/managers/hud/hudplayerdowned"/>
+			<hook file="playermanager.lua" source_file="lib/managers/playermanager"/>
 		</hooks>
 		<include directory="levels/pvp_bankheist">
 			<file file="world.world" type="generic_xml"/>
@@ -213,9 +216,12 @@
 			</mod>
 		</script_data_mods>
 	</level>
+	<AddFiles directory="assets">
+		<texture force="true" load="true" path="units/pd2_mod_pvp/guis/crimewar_icon"/>
+	</AddFiles>
 	<AssetUpdates id="-1" provider="modworkshop" use_local_dir="true" version="1"/>
 	<Localization default="english.txt" directory="loc"/>
-	<narrative contact="custom" id="pvp" icon="units/pd2_mod_pvp/guis/crimewar_icon">
+	<narrative contact="custom" icon="units/pd2_mod_pvp/guis/crimewar_icon" id="pvp">
 		<chain>
 			<table level_id="pvp_bankheist" type="d" type_id="heist_type_assault"/>
 		</chain>

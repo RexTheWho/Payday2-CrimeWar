@@ -13,5 +13,7 @@
 	"pvp_swat_win_text":		"Police Win!",
 	"pvp_take_wep_primary":		"Press $BTN_INTERACT to take Primary Weapon.",
 	"pvp_take_wep_secondary":	"Press $BTN_INTERACT to take Secondary Weapon.",
+	"pvp_killed_by":			"KILLED YOU WITH: ",
+	"pvp_respawn_in":			"RESPAWN IN",
 	"":""
 }

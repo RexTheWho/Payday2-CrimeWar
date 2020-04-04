@@ -1,4 +1,4 @@
-Hooks:PostHook(HUDManager, "init", "BR_init_hud_stuff", function(self)
+Hooks:PostHook(HUDManager, "init", "CW_init_hud_stuff", function(self)
 	self._name_label_slot = managers.slot:get_mask("bullet_impact_targets_ff")
 end)
 
@@ -60,7 +60,7 @@ function HUDManager:_update_name_labels(t, dt)
 						label_panel:set_visible(false)
 					end
 				else
-					label_panel:set_visible((ray and unit and ray.unit == unit) or unit:contour():has_id("mark_unit"))
+					label_panel:set_visible((ray and unit and ray.unit == unit and not unit:movement():downed()))
 				end
 	
 				local offset = data.panel:child("cheater"):h() / 2
@@ -77,7 +77,21 @@ function HUDManager:_update_name_labels(t, dt)
 	end
 end
 
-Hooks:PostHook(HUDManager, "_create_teammates_panel", "BR_hide_teammates", function(self, hud)
+function HUDManager:pd_start_timer(data)
+	self:pd_stop_timer()
+
+	local time = data.time or 5
+	local hud = managers.hud:script(PlayerBase.PLAYER_DOWNED_HUD)
+	self._hud.timer_thread = self._hud_player_downed._timer:animate(callback(self, self._hud_player_downed, "start_timer"), time)
+
+	self._hud_player_downed:hide_arrest_finished()
+end
+
+function HUDManager:cw_set_killer(killer)
+	self._hud_player_downed:cw_set_killer(killer)
+end
+
+Hooks:PostHook(HUDManager, "_create_teammates_panel", "CW_hide_teammates", function(self, hud)
 	hud = hud or managers.hud:script(PlayerBase.PLAYER_INFO_HUD_PD2)
 	for i, panel in pairs(self._teammate_panels) do
 		if i ~= HUDManager.PLAYER_PANEL then
@@ -85,3 +99,16 @@ Hooks:PostHook(HUDManager, "_create_teammates_panel", "BR_hide_teammates", funct
 		end
 	end
 end)
+
+Hooks:PostHook(HUDManager, "set_teammate_health", "CW_teammate_health", function(self, i, data)
+	self._hud.teammate_panels_data[i].health = data.current / data.total
+end)
+
+Hooks:PostHook(HUDManager, "set_teammate_armor", "CW_teammate_armor", function(self, i, data)
+	self._hud.teammate_panels_data[i].armor = data.current / data.total
+end)
+
+function HUDManager:get_teammate_stats(i)
+	local data = self._hud.teammate_panels_data[i]
+	return data.health, data.armor
+end

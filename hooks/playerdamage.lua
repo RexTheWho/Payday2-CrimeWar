@@ -10,10 +10,14 @@ function PlayerDamage:change_health(change_of_health)
 	return self:set_health(new_health < 1 and self:_max_health() or new_health)
 end
 ]]--
+Hooks:PreHook(PlayerDamage, "replenish", "replenish_reload", function(self, unit)
+	for id, weapon in pairs(self._unit:inventory()._available_selections) do
+		weapon.unit:base():replenish()
+		managers.hud:set_ammo_amount(id, weapon.unit:base():ammo_info())
+	end
+end)
 
-function PlayerDamage:_regenerate_armor(no_sound)
-	self._regenerate_speed = nil
-	self._current_state = nil
+function PlayerDamage:_update_regenerate_timer(t, dt)
 end
 
 function PlayerDamage:damage_fall(data)
@@ -109,20 +113,53 @@ function PlayerDamage:damage_fall(data)
 	return true
 end
 
-Hooks:PostHook(PlayerDamage, "_check_bleed_out", "respawn_func", function(self, can_activate_berserker, ignore_movement_state, ...)
-    self._revives = Application:digest_value(Application:digest_value(self._revives, false) + 1, true)
-    if self:get_real_health() == 0 then
-        local effect = clone(managers.overlay_effect:presets().fade_out_in)
-        effect.fade_in = 1
-        effect.sustain = 6
-        effect.fade_out = 1
-        managers.player:set_player_state("fatal")
-        managers.overlay_effect:play_effect(effect)
-        DelayedCalls:Add("Revive", 5, function()
-            IngameFatalState:at_exit()
-            self:replenish()
-            managers.player:set_player_state("standard")
-            DelayedCalls:Remove("Revive")
-        end)
-    end
-end)
+function PlayerDamage:update_downed(t, dt)
+	if self._downed_timer and self._downed_paused_counter == 0 then
+		self._downed_timer = self._downed_timer - dt
+
+		if self._downed_start_time == 0 then
+			self._downed_progression = 100
+		else
+			self._downed_progression = math.clamp(1 - self._downed_timer / self._downed_start_time, 0, 1) * 100
+		end
+
+		return self._downed_timer <= 0
+	end
+
+	return false
+end
+
+function PlayerDamage:down_time()
+	return 3
+end
+
+function PlayerDamage:_check_bleed_out(can_activate_berserker, ignore_movement_state)
+	self._revives = Application:digest_value(3, true)
+	if self:get_real_health() == 0 then
+		self:disable_berserker()
+		managers.environment_controller:set_last_life(true)
+		self._bleed_out = true
+		self._current_state = nil
+		managers.player:set_player_state("bleed_out")
+		self:on_downed()
+	end
+end
+
+local calc_health_damage_orig = PlayerDamage._calc_health_damage
+function PlayerDamage:_calc_health_damage(attack_data)
+	local health_subtracted = calc_health_damage_orig(self, attack_data)
+	
+	if attack_data and attack_data.attacker_unit and self:get_real_health() <= 0 then
+		managers.hud:cw_set_killer(attack_data.attacker_unit)
+	end
+
+	return health_subtracted
+end
+
+function PlayerDamage:_chk_dmg_too_soon(damage)
+	return false
+end
+
+function PlayerDamage:_bleed_out_damage(attack_data)
+
+end

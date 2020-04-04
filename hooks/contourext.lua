@@ -5,6 +5,6 @@ ContourExt._types.teammate_dead = ContourExt._types.teammate
 ContourExt._types.teammate_cuffed = ContourExt._types.teammate
 ContourExt._types.mark_unit = {
     priority = 4,
-    fadeout = 6,
+    fadeout = 3,
     color = tweak_data.contour.character.more_dangerous_color
 }
